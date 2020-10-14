@@ -62,7 +62,7 @@ def get_none():
 
 
 # 单独测试一组
-test = [1, 5, 5, 5]
+test = [3, 3, 7, 7]
 num_dict = {1: test[0], 2: test[1], 3: test[2], 4: test[3]}
 cal(num_dict)
 # get_none()
