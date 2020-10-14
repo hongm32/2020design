@@ -7,7 +7,6 @@ print("    2.输入非数字计输错一次")
 print("    3.猜错5次游戏自动退出")
 print("#################################")
 set_number = random.randint(1, 50)
-times = 0
 number_min = 1
 number_max = 50
 for times in range(5):

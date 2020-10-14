@@ -2,7 +2,6 @@ import random
 print('这是一个猜数游戏，数字范围1-50')
 set_number = random.randint(1, 50)
 flag = False
-times = 0
 for times in range(5):
     guess_number = int(input("请输入猜测的数："))
     if guess_number > set_number:
