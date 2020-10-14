@@ -17,8 +17,10 @@ while True:
     else:
         if 1 <= bj <= 12:
             break
-luck = random.choice(student[bj - 1])
-print()
-print("恭喜！高一({:0>2})班本次点名回答问题的同学是：{}{}".format(bj, luck[-2:], student_dict[luck][3]))
-print()
+while True:
+    luck = random.choice(student[bj - 1])
+    print()
+    print("恭喜！高一({:0>2})班本次点名回答问题的同学是：{}{}".format(bj, luck[-2:], student_dict[luck][3]))
+    if input().lower() == "q":
+        break
 input("程序运行结束，按回车键退出···")
