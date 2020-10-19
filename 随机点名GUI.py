@@ -13,9 +13,10 @@ def get_grade(file):
     with open(file, encoding="UTF-8") as f:
         f_csv = csv.reader(f)
         for row in f_csv:
-            stu[int(row[4][5:7]) - 1].append(row[4])
-            stu_dict[row[4]] = row
-    stu = [item for item in stu if item]
+            if row[4].isdigit():
+                stu[int(row[4][5:7]) - 1].append(row[4])
+                stu_dict[row[4]] = row
+    stu = [item for item in stu if len(item) >= 10]
     return stu, stu_dict
 
 
