@@ -2,7 +2,7 @@
 def prime(number):
     prime_list = []
     for i in range(2, number + 1):
-        for j in range(2, i):  # 改进的话，就是用int(math.sqrt(i))替代i
+        for j in range(2, i):
             if i % j == 0:
                 break
         else:
