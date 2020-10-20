@@ -11,10 +11,14 @@ def match_num(num):
     return total  # 返回需要多少根火柴棒数
 
 
-# 以下为主程序
-snum = 6  # 6根火柴棒
+# 以下为主程序(改进版)
+snum = int(input("输入火柴棒数量："))  # 6根火柴棒
+if snum % 2 == 0:
+    send = "1" * (snum // 2)
+else:
+    send = "7" + "1" * (snum // 2 -1)
 print("你可以拼出这些数字：")
-for i in range(112):
+for i in range(int(send) + 1):
     if match_num(i) == snum:  # 如果i需要的火柴棒数等于现有火柴棒数
         print(i)
 
