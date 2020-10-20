@@ -10,4 +10,7 @@
 - [【第05课】2.3周而复始的循环_条件循环while](https://github.com/hongm32/2020desig/tree/master/%E3%80%90%E7%AC%AC05-06%E8%AF%BE%E3%80%912.3%E5%91%A8%E8%80%8C%E5%A4%8D%E5%A7%8B%E7%9A%84%E5%BE%AA%E7%8E%AF)
 - [【第06课】2.3周而复始的循环_计数循环for](https://github.com/hongm32/2020desig/tree/master/%E3%80%90%E7%AC%AC05-06%E8%AF%BE%E3%80%912.3%E5%91%A8%E8%80%8C%E5%A4%8D%E5%A7%8B%E7%9A%84%E5%BE%AA%E7%8E%AF)
 - [【第07课】2.4可以复用的代码](https://github.com/hongm32/2020desig/tree/master/%E3%80%90%E7%AC%AC07%E8%AF%BE%E3%80%912.4%E5%8F%AF%E4%BB%A5%E5%A4%8D%E7%94%A8%E7%9A%84%E4%BB%A3%E7%A0%81)
+## 第4单元 计算与问题解决
+- 【第08课】4.1算法及其特征
+- 【第09课】4.2数值计算
 
