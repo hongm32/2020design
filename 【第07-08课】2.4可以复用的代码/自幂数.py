@@ -26,3 +26,4 @@ def narcissistic_number(num):
 for i in range(100, 10 ** 8):
     if narcissistic_number(i):
         print(i)
+input("运行完毕，请按回车键退出...")

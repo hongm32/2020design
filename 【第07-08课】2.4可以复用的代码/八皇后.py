@@ -50,3 +50,4 @@ if __name__ == "__main__":  # 来判断是否是在直接运行该.py文件
     queens_list = list(queens(8))
     print("共有{}解，其中一解为：".format(len(queens_list)))
     prettyprint(random.choice(queens_list))
+    input("运行完毕，请按回车键退出...")

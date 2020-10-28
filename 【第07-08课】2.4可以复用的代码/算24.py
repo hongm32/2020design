@@ -66,3 +66,4 @@ test = [3, 3, 7, 7]
 num_dict = {1: test[0], 2: test[1], 3: test[2], 4: test[3]}
 cal(num_dict)
 # get_none()
+input("运行完毕，请按回车键退出...")

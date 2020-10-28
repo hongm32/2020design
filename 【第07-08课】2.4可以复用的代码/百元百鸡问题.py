@@ -18,3 +18,4 @@ hen_price = 3  # 母鸡价格3文
 chick_count = 3  # 3只小鸡1文
 # 输出
 hundred_chickens(100, 100)
+input("运行完毕，请按回车键退出...")
