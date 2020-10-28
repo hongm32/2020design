@@ -2,7 +2,7 @@ import math
 import time
 
 
-# 返回所有质数(优化)
+# 返回所有质数
 def prime(number):
     prime_list = []
     for i in range(2, number + 1):
@@ -14,11 +14,14 @@ def prime(number):
     return prime_list
 
 
-# 返回所有质数
+# 返回所有质数(优化)
 def prime_optimize(number):
-    prime_list = []
-    for i in range(2, number + 1):
-        for j in range(2, int(math.sqrt(i)) + 1):
+    if number < 2:
+        return []
+    else:
+        prime_list = [2]
+    for i in range(3, number + 1, 2):  # 优化2：除2外，偶数不是质数
+        for j in range(2, int(math.sqrt(i)) + 1):  # 优化1：如果n不是质数, 则n有满足1<d<=sqrt(n)的因子d
             if i % j == 0:
                 break
         else:
