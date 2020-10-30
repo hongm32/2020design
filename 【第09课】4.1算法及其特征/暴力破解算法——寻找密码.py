@@ -22,7 +22,6 @@ def find_pwd(deep, parent):
 
 
 def get_char(char_type):
-    char_set = []
     if char_type == 1:
         char_set = number
     elif char_type == 2:
@@ -37,6 +36,8 @@ def get_char(char_type):
         char_set = ALPHABET + alphabet
     elif char_type == 7:
         char_set = number + ALPHABET + alphabet
+    else:
+        char_set = number
     return char_set
 
 
@@ -51,7 +52,7 @@ password = "25321"
 for char_set_type in [1, 4, 7]:
     char = get_char(char_set_type)
     t1 = time.time()
-    for psw_length  in range(1, 18):
+    for psw_length in range(1, 18):
         pwd = ""
         flag = False
         for i in range(len(char)):
@@ -61,3 +62,4 @@ for char_set_type in [1, 4, 7]:
         if flag:
             break
     print("密码类型:{} \n破解用时：{:.2f}秒".format(set_type[char_set_type], time.time() - t1))
+input("运行完毕，请按回车键退出...")

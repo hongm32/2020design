@@ -1,4 +1,4 @@
-# 返回所有质数
+# 寻找1000以内的所有素数(质数)
 def prime(number):
     prime_list = []
     for i in range(2, number + 1):

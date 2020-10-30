@@ -1,3 +1,4 @@
+# 寻找1000以内的所有素数(质数)
 import math
 import time
 
@@ -29,7 +30,7 @@ def prime_optimize(number):
     return prime_list
 
 
-n = 50000
+n = 10000
 t0 = time.time()
 l1 = prime(n)
 t1 = time.time()
