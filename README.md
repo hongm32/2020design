@@ -10,7 +10,7 @@
 - [【第05课】周而复始的循环_条件循环while](https://github.com/hongm32/2020desig/tree/master/【第05-06课】周而复始的循环)
 - [【第06课】周而复始的循环_计数循环for](https://github.com/hongm32/2020desig/tree/master/【第05-06课】周而复始的循环)
 - [【第07课】可以复用的代码](https://github.com/hongm32/2020design/tree/master/【第07-08课】可以复用的代码)
-- [【第08课】第2单元总结与实例](https://github.com/hongm32/2020design/tree/master/【第07-08课】可以复用的代码)
+- [【第08课】单元总结与实例](https://github.com/hongm32/2020design/tree/master/【第07-08课】可以复用的代码)
 ## 第4单元 计算与问题解决
 - [【第09课】枚举算法](https://github.com/hongm32/2020design/tree/master/【第09课】枚举算法)
 - [【第10课】递归算法](https://github.com/hongm32/2020design/tree/master/【第10课】递归算法)

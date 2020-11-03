@@ -10,20 +10,17 @@
 # 八位自幂数：八仙数24678050，24678051，88593477
 # 九位自幂数：九九重阳数146511208, 472335975, 534494836, 912985153
 # 十位自幂数：十全十美数4679307774
-# 最大的水仙花数有39位。十进制自然数中的所有水仙花数共有88个。
+# 最大的自幂数有39位。十进制自然数中的所有自幂数共有88个。
 
 def narcissistic_number(num):
     sum_num = 0
     length = len(str(num))
     for item in str(num):
         sum_num += int(item) ** length
-    if sum_num == num:
-        return True
-    else:
-        return False
+    return sum_num
 
 
 for i in range(100, 10 ** 8):
-    if narcissistic_number(i):
+    if narcissistic_number(i) == i:
         print(i)
 input("运行完毕，请按回车键退出...")
