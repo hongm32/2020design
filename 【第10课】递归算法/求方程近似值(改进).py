@@ -8,7 +8,7 @@ def f(x):
 def fun(f, x1, x2):
     # 二分法求函数f的近似解
     x0 = (x1 + x2) / 2
-    while x2 - x1 >= 1e-8:
+    while x2 - x1 >= 1e-13:
         x0 = (x1 + x2) / 2
         if f(x1) * f(x0) < 0:  # 函数f在（x1, x0)有解
             x2 = x0
