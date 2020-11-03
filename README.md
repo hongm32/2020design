@@ -15,7 +15,7 @@
 - [【第09课】枚举算法](https://github.com/hongm32/2020design/tree/master/【第09课】枚举算法)
 - [【第10课】递归算法](https://github.com/hongm32/2020design/tree/master/【第10课】递归算法)
 - [【第11课】迭代算法](https://github.com/hongm32/2020design/tree/master/【第11课】迭代算法)
-- [【第12课】综合问题的解决](https://github.com/hongm32/2020design/tree/master/【第12课】综合问题的解决)
+- [【第12课】二分算法](https://github.com/hongm32/2020design/tree/master/【第12课】二分算法)
 ## 第3单元 认识数据
 - 【第13课】数据编码
 - 【第14课】数据与结构
