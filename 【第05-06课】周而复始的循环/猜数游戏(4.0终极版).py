@@ -9,6 +9,7 @@ print("#################################")
 set_number = random.randint(1, 50)
 number_min = 1
 number_max = 50
+times = 0
 for times in range(5):
     try:
         guess_number = int(input("请输入猜测的数({}-{})：".format(number_min, number_max)))

@@ -23,3 +23,5 @@ for i in range(1, 1000):
                 print("{}×{}={}".format(i, j, product))
                 Magicformula.append("{}×{}={}".format(i, j, product))
 print(f"神奇算式共有 {len(Magicformula)} 个。")
+
+input("运行完毕，请按回车键退出...")
