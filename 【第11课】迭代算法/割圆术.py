@@ -36,4 +36,4 @@ def cyclotomic_method(n, flag=False):
 
 
 for i in range(28):
-    print(cyclotomic_method(i, True))
+    print("计算内接正{}边形，得到圆周率约{}".format(*cyclotomic_method(i, True)))
