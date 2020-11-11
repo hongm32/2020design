@@ -20,15 +20,14 @@
 import math
 
 
-def cyclotomic_method(n, flag=False):
-    if flag:
-        n = 6 * 2 ** n
+def cyclotomic_method(step):
+    # step: 割圆次数
+    # k = 6 * 2 ** step：内接正k边形边数
     k = 6
     x = 1
     s = 6 * math.sqrt(3) / 4
-    while k <= n // 2:
+    while k < 6 * 2 ** step:
         h = math.sqrt(1 - (x / 2) ** 2)
-        # s += k * x * (1 - h) / 2
         s = k * x / 2
         x = math.sqrt((x / 2) ** 2 + (1 - h) ** 2)
         k *= 2
@@ -36,4 +35,4 @@ def cyclotomic_method(n, flag=False):
 
 
 for i in range(28):
-    print("计算内接正{}边形，得到圆周率约{}".format(*cyclotomic_method(i, True)))
+    print("割圆{}次，计算内接正{}边形，得圆周率约{}".format(i, *cyclotomic_method(i)))
