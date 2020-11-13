@@ -15,3 +15,5 @@ for cock_num in range(1, money // cock_price + 1):  # 公鸡只数可能为1-20
             num1 = cock_num + hen_num + chick_num * 3
             if money1 == money and num1 == num:
                 print("公鸡:{: >2} 母鸡:{: >2} 小鸡:{}".format(cock_num, hen_num, chick_num*3))
+
+input("运行完毕，请按回车键退出...")

@@ -2,6 +2,7 @@
 import random
 import time
 import os
+
 print("你好，现在你有10秒钟的时间记忆下列物品及其编号")
 things = ["苹果", "香蕉", "橙子", "梨子", "猕猴桃", "柚子", "猴魁", "铁观音", "彩蛋", "复活节"]
 for i in range(10):

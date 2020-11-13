@@ -7,7 +7,7 @@
 
 def ctree():
     global d, v
-    f = open('最短时间分析树.txt', 'r')
+    f = open('CH3.2-P064最短时间分析树.txt', 'r')
     x = f.readline()[0:-1]
     t = x.find(':')
     r = [x[:t]]
