@@ -7,3 +7,5 @@ while True:
         print(n)
         break
     n += 1
+
+input("运行完毕，请按回车键退出...")
