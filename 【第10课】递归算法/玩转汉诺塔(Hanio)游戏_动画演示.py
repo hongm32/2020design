@@ -1,4 +1,4 @@
-# 4.3.3：P104-玩转汉诺塔(Hanio)游戏_动画演示
+# 玩转汉诺塔(Hanio)游戏_动画演示
 # 说明：使用turtle模块，无法在网页运行，请把代码保存到本地再运行
 
 import turtle
@@ -6,13 +6,13 @@ import turtle
 # ==============
 #  常量设置
 # ==============
-# N = 4 # 汉诺塔层数限制
+# n = 4 # 汉诺塔层数限制
 while True:
-    N = input('请输入汉诺塔的层数：')
-    if N.lower() == 'q':
+    n = input('请输入汉诺塔的层数：')
+    if n.lower() == 'q':
         exit()
-    elif N.isdigit():
-        N = int(N)
+    elif n.isdigit():
+        n = int(n)
         break
 
 BasePL = 12  # plate的大小基数，修改这个能够调整plate的大小
@@ -21,8 +21,8 @@ TowerW = 110  # Tower的底座宽度
 TowerH = 200  # Tower的高度
 TowerSpace = 260  # Tower的之间的距离，从中心到中心
 HORIZON = -100  # Tower的底座高度，用于定位
-# 动画速度，5是比较适中的速度
-PMS = 1
+# 动画速度，3是比较适中的速度
+PMS = 3
 
 # 优化处理
 Isjump = True
@@ -50,6 +50,7 @@ FillColors = [
 SCR = turtle.Screen()
 # SCR.tracer()
 SCR.setup(800, 600)  # 设置窗体大小
+SCR.title("汉诺塔(Hanio)游戏_动画演示")
 
 
 # 设置圆盘形状
@@ -150,8 +151,8 @@ def draw_move(diskIndex, fromPindex, toPindex):
 
 
 # 将所有圆盘移动到起点
-def movetoA(n, fromPindex):
-    for i in range(n, 0, -1):
+def movetoA(_n, fromPindex):
+    for i in range(_n, 0, -1):
         draw_move(i, None, fromPindex)
 
 
@@ -190,8 +191,7 @@ def moveTower(height, fromPole, withPole, toPole):
 
 if __name__ == '__main__':
     # 调用
-    # 三层汉诺塔，A为出发柱子，B为中转柱子，C为目标柱子
-    n = N
+    # 汉诺塔，A为出发柱子，B为中转柱子，C为目标柱子
     SCR.tracer(0)
     draw_towers()
     draw_plates(n)

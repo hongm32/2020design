@@ -1,4 +1,6 @@
-# CH4.3-P104玩转汉诺塔(Hanio)游戏_文本演示
+# 玩转汉诺塔(Hanio)游戏_文本演示
+
+
 def hanno(k, s, m, t):
     # 定义一个函数,k层塔，将盘子从s借助m移动到t
     global Step
