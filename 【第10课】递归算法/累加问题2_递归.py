@@ -2,7 +2,7 @@ def fun(n):
     if n == 1:
         return 1
     else:
-        return fun(n - 1) + 1 / n
+        return 1 /n + fun(n - 1)
 
 
 print('这是一个有关累加问题1+1/2+1/3+1/4+……1/n的程序')

@@ -21,7 +21,7 @@ print("""三人一排 余2
 七人一排 余2
 范围1000~1100""")
 
-for count in range(1000, 1101):
+for count in range(1000, 1100):
     if count % 3 == 2 and count % 5 == 3 and count % 7 == 2:
         print("军队人数:{}".format(count))
 
