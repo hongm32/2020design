@@ -145,3 +145,5 @@ if __name__ == "__main__":
             print("{}用时 {:0.8f} 秒".format(value, t1 - t0))
         else:
             print("{}新序列:[{} {} ……{} {}] 错误".format(value, b[0], b[1], b[-2], b[-1]))
+
+input("运行完毕，请按回车键退出...")

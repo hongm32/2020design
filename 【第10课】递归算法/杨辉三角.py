@@ -10,5 +10,7 @@ def f(x, y):
     else:
         return f(x - 1, y - 1) + f(x - 1, y)
 
+
 # 获取第5行第3列
 print(f(5, 3))
+input("运行完毕，请按回车键退出...")

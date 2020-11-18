@@ -9,3 +9,4 @@ def hanoi(n):
 
 total = hanoi(64)
 print("需要移动{}次，约{}亿年".format(total, total/3600/24/365/1e8))
+input("运行完毕，请按回车键退出...")

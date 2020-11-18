@@ -20,3 +20,5 @@ for r4 in range(n // 4 + 1):  # 罗列4人间房间数量
 print("费用总计：{}元".format(minimum))
 print("其中需要订4人间:{}间 ".format(minimum_r4))
 print("        3人间:{}间 ".format(minimum_r3))
+
+input("运行完毕，请按回车键退出...")

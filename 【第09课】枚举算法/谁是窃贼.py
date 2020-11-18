@@ -52,4 +52,5 @@ for i in range(1, 4):
             d = 1
 Name = ['无', "甲", "乙", "丙", "丁"]
 print("判断结果：\n  {}是窃贼".format(Name[s]))
+
 input("运行完毕，请按回车键退出...")

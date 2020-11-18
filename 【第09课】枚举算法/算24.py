@@ -57,9 +57,20 @@ def get_none():
     print('总数:{},无解:{}'.format(max_number**4, fail))
 
 
-# 单独测试一组
-test = [3, 3, 7, 7]
-num_dict = {1: test[0], 2: test[1], 3: test[2], 4: test[3]}
-cal(num_dict)
+
+# 所有组
 # get_none()
-input("运行完毕，请按回车键退出...")
+# 单独测试一组
+while True:
+    # test = [3, 3, 7, 7]
+    test = input("输入4个数字：")
+    if "," in test and len(test) >= 7:
+        test = [int(i) for i in test.split(",")]
+    elif test.isdigit() and len(test) >= 4:
+        test = [int(i) for i in test]
+    elif test == '0' or test.lower() in ['q', 'e', 'quit', 'exit']:
+        break
+    else:
+        continue
+    num_dict = {1: test[0], 2: test[1], 3: test[2], 4: test[3]}
+    cal(num_dict)

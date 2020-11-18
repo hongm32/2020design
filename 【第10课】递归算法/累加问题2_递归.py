@@ -8,6 +8,8 @@ def fun(n):
         return 1 / n + fun(n - 1)
 
 
-num = int(input("请输入整数n的值："))
-print("1 + 1/2 + … + 1/{} = {}".format(num, fun(num)))
-input("运行完毕，请按回车键退出...")
+while True:
+    num = int(input("请输入整数n的值："))
+    if num == 0:
+        break
+    print("1 + 1/2 + … + 1/{} = {}".format(num, fun(num)))

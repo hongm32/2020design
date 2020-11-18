@@ -8,6 +8,8 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-num = int(input('输入需要计算的月份数：'))
-print('兔子总对数为：', fibonacci(num))
-input("运行完毕，请按回车键退出...")
+while True:
+    num = int(input('输入需要计算的月份数：'))
+    if num == 0:
+        break
+    print('兔子总对数为：', fibonacci(num))

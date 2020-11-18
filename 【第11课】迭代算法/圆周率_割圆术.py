@@ -37,4 +37,4 @@ def cyclotomic_method(step):
 
 for i in range(28):
     print("割圆{}次，计算内接正{}边形，得圆周率约{}".format(i, *cyclotomic_method(i)))
-input("程序运行结束，按回车键退出……")
+input("运行结束，请按回车键退出...")

@@ -13,5 +13,7 @@ def flexagon_iterative(_n):
 
 while True:
     n = int(input("需要对折次数："))
+    if n == 0:
+        break
     print("纸上会有{}条折痕".format(flexagon(n)))
     # print(flexagon_iterative(n))

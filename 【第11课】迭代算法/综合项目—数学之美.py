@@ -20,3 +20,4 @@ while abs(x - x1) > 1e-10:
     x = x1 - y1 / y2
     print(x)
 print('近似解：', x)  # 输出最后解
+input("运行结束，请按回车键退出...")

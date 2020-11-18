@@ -14,3 +14,4 @@ def find_walk_num(x, y):
 
 result = find_walk_num(4, 3)
 print("从家(0,0)到单位(4,3)的走法共有：{}种".format(result))
+input("运行结束，请按回车键退出...")

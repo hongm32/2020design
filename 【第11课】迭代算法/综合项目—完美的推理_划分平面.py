@@ -13,5 +13,7 @@ def divide_iterative(_n):
 
 while True:
     n = int(input("需要对折次数："))
-    print("纸上会有{}条折痕".format(divide(n)))
-    # print(divide_iterative(n))
+    if n == 0:
+        break
+    print("这{}条直线把平面划分成为 {} 个部分。".format(n, divide(n)))
+    # print("这{}条直线把平面划分成为{}个部分。".format(n, divide_iterative(n)))
