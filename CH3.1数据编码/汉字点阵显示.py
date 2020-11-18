@@ -72,4 +72,4 @@ if '__main__' == __name__:
     fr = FontRender('./font/hzk{}'.format(RECT_WIDTH))
     fr.convert(text, ft='/static/*', ff=0)
     fr.render_font_rect()
-    input()
+    input("程序运行结束，按回车键退出……")

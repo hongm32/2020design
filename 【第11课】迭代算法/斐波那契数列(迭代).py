@@ -9,6 +9,6 @@ def fib(n):
     return f2
 
 
-num = int(input('输入需要计算的月份数：'))
-print('兔子总对数为：', fib(num))
-input("运行完毕，请按回车键退出...")
+while True:
+    num = int(input('输入需要计算的月份数：'))
+    print('兔子总对数为：', fib(num))

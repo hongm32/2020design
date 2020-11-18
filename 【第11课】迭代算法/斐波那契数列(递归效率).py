@@ -12,7 +12,7 @@ def fibonacci(n):
 
 for num in range(16, 41):
     t1 = time.time()
-    sum = fibonacci(num)
+    total = fibonacci(num)
     t2 = time.time()
-    print('用时：{:.12f} 计算出{}月后兔子总对数为：{} '.format(t2 - t1, num, sum))
+    print('用时：{:.12f} 计算出{}月后兔子总对数为：{} '.format(t2 - t1, num, total))
 input("运行完毕，请按回车键退出...")

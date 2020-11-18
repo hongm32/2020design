@@ -33,5 +33,6 @@ def pi(precision=14):
     return str(constant_term / partial_sum)[:-1]
 
 
-n = 14
-print("π的前{}位是：{}".format(n, pi(n)))
+while True:
+    n = int(input("输入需要计算的位数："))
+    print("π的前{}位是：{}".format(n, pi(n)))
