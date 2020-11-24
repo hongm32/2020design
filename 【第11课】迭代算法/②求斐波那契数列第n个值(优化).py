@@ -10,7 +10,7 @@ def fibonacci_iterative(n):
 
 while True:
     num = input("输入需要计算的月份数：")
-    if num.lower() == 'q':
+    if num.lower() == 'q' or num == "0":
         break
     num = int(num)
     t1 = time.time()
