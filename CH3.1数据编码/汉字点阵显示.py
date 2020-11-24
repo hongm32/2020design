@@ -1,6 +1,6 @@
 # 汉字点阵显示
 
-RECT_HEIGHT = RECT_WIDTH = 16
+RECT_HEIGHT = RECT_WIDTH = 16  # 点阵字体大小：16、24、32、40、48
 BYTE_COUNT_PER_ROW = RECT_WIDTH // 8
 BYTE_COUNT_PER_FONT = BYTE_COUNT_PER_ROW * RECT_HEIGHT
 KEYS = [0x80, 0x40, 0x20, 0x10, 0x08, 0x04, 0x02, 0x01]
@@ -52,9 +52,9 @@ class FontRender(object):
         for row in rect_list:
             for i in row:
                 if i:
-                    print('■', end=' ')
+                    print('■', end='')
                 else:
-                    print('□', end=' ')
+                    print('□', end='')
             print()
 
     def convert(self, text_list, ft=None, ff=None):
