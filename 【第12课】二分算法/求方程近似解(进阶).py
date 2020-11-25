@@ -15,13 +15,15 @@ def f2(x):
 
 
 def fun(f, x1, x2):
-    x0 = (x1 + x2) / 2
-    while x2 - x1 >= 1e-13:
+    x0 = ""
+    while abs(x2 - x1) >= 1e-13:
         x0 = (x1 + x2) / 2
         if f(x1) * f(x0) < 0:  # 函数f在（x1, x0)有解
             x2 = x0
-        elif f(x2) * f(x0) < 0:  # 函数f在（x0, x2)有解
+        if f(x2) * f(x0) < 0:  # 函数f在（x0, x2)有解
             x1 = x0
+        if f(x0) == 0:
+            break
     return x0
 
 
