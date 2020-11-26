@@ -2,7 +2,7 @@
 # 尝试用二分法求解方程x^3-X^2+x-1=0
 
 def f1(x):
-    return x ** 3 - x ** 2 + x - 2
+    return x ** 3 - x ** 2 - x - 1
 
 
 def fun(f, x1, x2):
