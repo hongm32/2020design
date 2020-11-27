@@ -15,7 +15,7 @@ def f2(x):
 
 
 def fun(f, x1, x2):
-    x0 = ""
+    x0 = None
     while abs(x2 - x1) >= 1e-13:
         x0 = (x1 + x2) / 2
         if f(x1) * f(x0) < 0:  # 函数f在（x1, x0)有解

@@ -8,11 +8,11 @@ while True:
     # 要保证 f(x1) * f(x2) < 0 才能确认方程在(x1, x2)内有解
     x1 = float(input("请输入有解单调区间左边界："))
     x2 = float(input("请输入有解单调区间右边界："))
-    if f(x1) * f(x2) < 0:
+    if f(x1) * f(x2) <= 0:
         break
     else:
         print("输入的区间可能无解！")
-x0 = ""
+x0 = None
 while abs(x2 - x1) >= 1e-13:
     x0 = (x1 + x2) / 2
     if f(x1) * f(x0) < 0:  # 函数f在（x1, x0)有解
