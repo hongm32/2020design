@@ -3,10 +3,6 @@
 # [外逼近】：觚面之外，又有余径。以面乘余径，则幂出弧表。若夫觚之细者与圆全体，则表无余径，则幂不外出矣。
 
 
-
-import math
-
-
 def cyclotomic_method(step):
     """
     step: 割圆次数
@@ -26,11 +22,11 @@ def cyclotomic_method(step):
     """
     k = 6
     x = 1
-    s = 6 * math.sqrt(3) / 4
+    s = 6 * 3 ** 0.5 / 4
     while k < 6 * 2 ** step:
-        h = math.sqrt(1 - (x / 2) ** 2)
+        h = (1 - (x / 2) ** 2) ** 0.5
         s = k * x / 2
-        x = math.sqrt((x / 2) ** 2 + (1 - h) ** 2)
+        x = ((x / 2) ** 2 + (1 - h) ** 2) ** 0.5
         k *= 2
     return k, s
 

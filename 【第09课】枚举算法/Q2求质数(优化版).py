@@ -1,5 +1,4 @@
-# 寻找1000以内的所有素数(质数)
-import math
+# 寻找10000以内的所有素数(质数)
 import time
 
 
@@ -22,7 +21,7 @@ def prime_optimize(number):
     else:
         prime_list = [2]
     for i in range(3, number + 1, 2):  # 优化2：除2外，偶数不是质数
-        for j in range(2, int(math.sqrt(i)) + 1):  # 优化1：如果n不是质数, 则n有满足1<d<=sqrt(n)的因子d
+        for j in range(2, int(i ** 0.5) + 1):  # 优化1：如果n不是质数, 则n有满足1<d<=sqrt(n)的因子d
             if i % j == 0:
                 break
         else:

@@ -54,32 +54,32 @@ def merge_sort(lst):
 
 
 def merge(left, right):
-    r_lenth, l_lenth = 0, 0
+    r_length, l_length = 0, 0
     result = []
-    while l_lenth < len(left) and r_lenth < len(right):
-        if left[l_lenth] <= right[r_lenth]:
-            result.append(left[l_lenth])
-            l_lenth += 1
+    while l_length < len(left) and r_length < len(right):
+        if left[l_length] <= right[r_length]:
+            result.append(left[l_length])
+            l_length += 1
         else:
-            result.append(right[r_lenth])
-            r_lenth += 1
-    result += list(left[l_lenth:])
-    result += list(right[r_lenth:])
+            result.append(right[r_length])
+            r_length += 1
+    result += list(left[l_length:])
+    result += list(right[r_length:])
     return result
 
 
 # 直接选择排序
 def selection_sort(lst):
     arr = lst[:]
-    newlst = []  # 定义新生成数组的类型以及分配内存空间
+    new_lst = []  # 定义新生成数组的类型以及分配内存空间
     for i in range(len(arr)):
-        smallest, smallest_index = findsmallest(arr)
-        newlst.append(smallest)  # 将每次得到的最小元素加在数组后面
+        smallest, smallest_index = find_smallest(arr)
+        new_lst.append(smallest)  # 将每次得到的最小元素加在数组后面
         arr.pop(smallest_index)  # 删除原数组中已经被查找出来的最小元素
-    return newlst
+    return new_lst
 
 
-def findsmallest(lst):  # 找出数组中最小元素的函数
+def find_smallest(lst):  # 找出数组中最小元素的函数
     smallest = lst[0]  # 将arr数组中的第一个元素作为最小值的初始化值
     smallest_index = 0  # 对应上行代码，初始化存储最小元素的索引
     for i in range(1, len(lst)):  # 从数组中第二个元素开始遍历
