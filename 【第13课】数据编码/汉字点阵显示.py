@@ -68,7 +68,7 @@ class FontRender(object):
 
 
 if '__main__' == __name__:
-    text = '盛泽中学'
+    text = '热烈庆祝'
     fr = FontRender('./font/hzk{}'.format(RECT_WIDTH))
     fr.convert(text, ft='/static/*', ff=0)
     fr.render_font_rect()
