@@ -3,6 +3,7 @@
 # 探究一下传播曲线
 
 import matplotlib.pyplot as plt
+import matplotlib.animation as ani
 from matplotlib.font_manager import FontProperties
 
 
@@ -56,12 +57,14 @@ def report():
         data_total.append(val[-1] + val[-2])
         data_count.append(val[-1])
     font = FontProperties(fname='C:/Windows/Fonts/simhei.ttf', size=16)
-    plt.xlim(-1, 24)
-    plt.plot(x[:23], data_count[:23], "o-")
-    plt.title('疫情发展预测', fontproperties=font)  # 设置图像标题
+    fig = plt.figure()
+    plt.xticks(rotation=45, ha='right', rotation_mode='anchor')
+    plt.subplots_adjust(bottom=0.2, top=0.9)
     plt.xlabel('周期(天)', fontproperties=font)  # 设置X轴标题
-    plt.ylabel('现存确诊人数', fontproperties=font)  # 设置Y轴标题
-    plt.savefig("新冠疫情传播.png")
+    plt.title('现存确诊人数', fontproperties=font)  # 设置Y轴标题
+    def build_member_chart(i):
+        plt.plot(x[:i], data_count[:i], "o-")
+    ani.FuncAnimation(fig, build_member_chart, save_count=60, interval=500)
     plt.show()
 
 
