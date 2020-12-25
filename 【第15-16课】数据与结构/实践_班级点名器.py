@@ -20,8 +20,8 @@ bj = [
 删除元素：②移除元素 → 列表.remove(元素)
 删除元素：③弹出元素并返回值 → 列表.pop(索引号)
 列表长度： len(列表)
-机抽5人： 打乱顺序  import random → random.shuffle(列表)
-随机抽选5次： import random→random.choice(列表)
+打乱列表顺序： random.shuffle(列表)
+列表随机选择： random.choice(列表)
 """
 
 # 请在下面定上你的代码
