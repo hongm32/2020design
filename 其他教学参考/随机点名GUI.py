@@ -10,21 +10,32 @@ def get_grade(file):
     stu = [[] for _ in range(24)]  # 生成班级学号空列表
     stu_dict = {}  # 生成学生信息空字典
     # csv_file = '20021.csv'
-    with open(file, encoding="UTF-8") as f:
-        f_csv = csv.reader(f)
-        for row in f_csv:
-            if row[4].isdigit():
-                stu[int(row[4][5:7]) - 1].append(row[4])
-                stu_dict[row[4]] = row
-    stu = [item for item in stu if len(item) >= 10]
+    # CSV文件格式：班级，学号，姓名
+    try:
+        with open(file, encoding="GBK") as f:
+            f_csv = csv.reader(f)
+            for row in f_csv:
+                if row[0].isdigit():
+                    dm = row[0].zfill(2) + row[1].zfill(2)
+                    stu[int(row[0]) - 1].append(dm)
+                    stu_dict[dm] = row
+    except UnicodeDecodeError:
+        with open(file, encoding="UTF-8") as f:
+            f_csv = csv.reader(f)
+            for row in f_csv:
+                if row[0].isdigit():
+                    dm = row[0] + row[1]
+                    stu[int(row[0]) - 1].append(dm)
+                    stu_dict[dm] = row
+    stu = [_item for _item in stu if len(_item) >= 10]
     return stu, stu_dict
 
 
-def get_data(stu, stu_dict, currbj=1):
+def get_data(stu, stu_dict, _bj=0):
     data = []
-    for index in stu[currbj]:
-        if stu_dict[index][3]:
-            data.append(index[-2:] + stu_dict[index][3])
+    for index in stu[_bj]:
+        if stu_dict[index][2]:
+            data.append(index[-2:] + stu_dict[index][2])
     return data
 
 
