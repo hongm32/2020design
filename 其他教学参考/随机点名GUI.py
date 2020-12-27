@@ -96,16 +96,16 @@ root.resizable(0, 0)  # 禁止调整窗口大小
 var = StringVar()  # 定义StringVar()类型
 var1 = StringVar()
 b = []  # b作为列表a的备份
-var2 = StringVar()
-var2.set(csv_files)  # 为变量var2设置值
 bj = 1
 csv_file = None
-student, student_dict = get_grade(csv_files[0])
+student, student_dict = get_grade(csv_files[-1])
 a = get_data(student, student_dict, 0)
 # 在窗口上建1个Listbox
-lb = Listbox(root, listvariable=var2, height=3, selectmode=SINGLE)
-lb.selection_set(len(csv_files))
+lb = Listbox(root, height=3, selectmode=SINGLE)
 lb.grid(row=0, column=0, padx=20)
+for item in csv_files:
+    lb.insert(END, item)
+lb.selection_set(len(csv_files)-1)
 # 在窗口上建1个Scale
 scale = Scale(root, label=None, from_=1, to=len(student), orient=HORIZONTAL, length=600, showvalue=1,
               tickinterval=1, resolution=1, command=get_bj)
