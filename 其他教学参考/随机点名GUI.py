@@ -9,24 +9,23 @@ import os
 def get_grade(file):
     stu = [[] for _ in range(24)]  # 生成班级学号空列表
     stu_dict = {}  # 生成学生信息空字典
-    # csv_file = '20021.csv'
+
+    # 定义CSV文件处理函数
+    def process_csv():
+        f_csv = csv.reader(f)
+        for row in f_csv:
+            if row[0].isdigit():
+                dm = row[0] + row[1]
+                stu[int(row[0]) - 1].append(dm)
+                stu_dict[dm] = row
+
     # CSV文件格式：班级，学号，姓名
     try:
         with open(file, encoding="GBK") as f:
-            f_csv = csv.reader(f)
-            for row in f_csv:
-                if row[0].isdigit():
-                    dm = row[0].zfill(2) + row[1].zfill(2)
-                    stu[int(row[0]) - 1].append(dm)
-                    stu_dict[dm] = row
+            process_csv()
     except UnicodeDecodeError:
         with open(file, encoding="UTF-8") as f:
-            f_csv = csv.reader(f)
-            for row in f_csv:
-                if row[0].isdigit():
-                    dm = row[0] + row[1]
-                    stu[int(row[0]) - 1].append(dm)
-                    stu_dict[dm] = row
+            process_csv()
     stu = [_item for _item in stu if len(_item) >= 10]
     return stu, stu_dict
 
