@@ -2,7 +2,7 @@ import csv
 import random
 
 
-# 定义个抽奖类，功能有输入抽奖级别和个数，打印出每个级别的抽奖员工号码
+# 定义个抽奖类，功能有输入抽奖级别和个数，打印出每个级别的抽奖号码
 class ChouJiang:
     # 定义scv文件路径
     def __init__(self, filepath):
