@@ -18,7 +18,7 @@ class State:
         for i in range(3):
             for j in range(3):
                 print(self.state[i, j], end='  ')
-            print("\n")
+            print()
         print('->')
         return
 
