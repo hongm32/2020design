@@ -82,15 +82,20 @@ def reset():  # "重置"按钮激发函数
 
 
 def scan_files(directory, prefix=None, postfix=None):
+    """查找文件
+    ：prefix 前置字符串，小写，文件名不区分大小写
+    ：postfix 后置字符串，小写，文件名不区分大小写
+    """
     files_list = []
     for special_file in os.listdir(directory):
         file_path = os.path.join(directory, special_file)
         if not os.path.isdir(file_path):
-            if postfix:
-                if special_file.endswith(postfix):
+            if postfix and prefix:
+                if special_file.lower().endswith(postfix) and special_file.lower().startswith(prefix):
                     files_list.append(special_file)
-            elif prefix:
-                if special_file.startswith(prefix):
+            elif prefix or postfix:
+                if (prefix and special_file.lower().startswith(prefix)) \
+                        or (postfix and special_file.lower().endswith(postfix)):
                     files_list.append(special_file)
             else:
                 files_list.append(special_file)
@@ -120,9 +125,6 @@ lb.selection_set(len(csv_files)-1)
 scale = Scale(root, label=None, from_=1, to=len(student), orient=HORIZONTAL, length=600, showvalue=1,
               tickinterval=1, resolution=1, command=get_bj)
 scale.grid(row=0, column=1, padx=20, columnspan=3)
-label = Label(root, bg='green', fg='white', width=20, text='班级')
-# label.grid(row=0, column=3, columnspan=1)
-# 在窗口上建1个Entry
 entry = Entry(root, textvariable=var, font=('黑体', 150), width=8, justify=CENTER)
 entry.grid(row=1, column=0, columnspan=4, padx=20, sticky=NS)
 # 在窗口上建1个Button
