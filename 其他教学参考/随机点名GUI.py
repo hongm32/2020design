@@ -53,7 +53,7 @@ def get_bj(v):  # 尺度（拉动条）激发班级
     reset()
 
 
-def intomap():  # "下一个"按钮激发函数
+def next_map():  # "下一个"按钮激发函数
     if lb.curselection() and csv_file != lb.get(lb.curselection()):
         get_bj(bj)
     if len(b) == 0:  # 如果点名完成一轮
@@ -128,7 +128,7 @@ scale.grid(row=0, column=1, padx=20, columnspan=3)
 entry = Entry(root, textvariable=var, font=('黑体', 150), width=8, justify=CENTER)
 entry.grid(row=1, column=0, columnspan=4, padx=20, sticky=NS)
 # 在窗口上建1个Button
-button = Button(root, text="下一个", command=intomap, relief="solid", width=28, font=('黑体', 14))
+button = Button(root, text="下一个", command=next_map, relief="solid", width=28, font=('黑体', 14))
 button.grid(row=2, column=0, pady=20, columnspan=2)
 # 在窗口上建1个Entry
 entry2 = Entry(root, textvariable=var1, font=('黑体', 16), width=11, bg='blue', fg='white', justify=CENTER)
