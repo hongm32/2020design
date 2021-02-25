@@ -7,9 +7,6 @@ import os
 
 
 def get_grade(file):
-    stu = [[] for _ in range(24)]  # 生成班级学号空列表
-    stu_dict = {}  # 生成学生信息空字典
-
     # 定义CSV文件处理函数
     def process_csv():
         f_csv = csv.reader(f)
@@ -19,6 +16,8 @@ def get_grade(file):
                 stu[int(row[0]) - 1].append(dm)
                 stu_dict[dm] = row
 
+    stu = [[] for _ in range(24)]  # 生成班级学号空列表
+    stu_dict = {}  # 生成学生信息空字典
     # CSV文件格式：班级，学号，姓名
     try:
         with open(file, encoding="GBK") as f:
