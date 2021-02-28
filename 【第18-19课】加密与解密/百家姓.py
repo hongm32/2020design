@@ -1,6 +1,6 @@
-# 百家姓
+from tkinter import *
+import tkinter.messagebox
 import random
-
 
 names_dict = """
 赵0
@@ -80,29 +80,44 @@ names_dict = """
 计!
 龚:
 """
-names_dict = dict([[i[0], i[1]] for i in names_dict.split("\n") if i])
+names_dict = dict([i for i in names_dict.split("\n") if i])
+j_names_dict = dict(zip(names_dict.values(), names_dict.keys()))
 
 
-def jiem(_text):
+def jiem():
+    _text = miwen.get('0.0', 'end')[:-1]
     _jie_text = ""
+    mingwen2.config(state="normal")
+    mingwen2.delete('0.0', 'end')
     for i in _text:
         _jie_text += names_dict.get(i, " ")
-    return _jie_text
+    mingwen2.insert('0.0', _jie_text)
+    mingwen2.config(state="disabled")
 
 
-def jiam(_text):
-    j_names_dict = dict(zip(names_dict.values(), names_dict.keys()))
+def jiam():
+    _text = mingwen.get("0.0", "end")[:-1]
     _jia_text = ""
+    miwen.delete('0.0', 'end')
     for i in _text:
         _jia_text += j_names_dict.get(i, random.choice("冲锋陷阵"))
-    return _jia_text
+    miwen.insert("0.0", _jia_text)
+    # miwen.config(state="disabled")
 
 
-text = "Be careful: There are five whistleblowers, David is one of them!"
-jia_text = jiam(text)
-jie_text = jiem(jia_text)
-print("原文：", text)
-print("密文：", jia_text)
-print("解密：", jie_text)
-
-input("运行结束，请按回车键退出...")
+root = Tk()
+root.title("百家姓")
+root.geometry('300x300')
+Label(root, text='请输入明文', font=('楷体', 10)).pack()
+mingwen = Text(root, width=300, height=4)
+mingwen.pack()
+mingwen.focus_set()
+Button(root, text="加密", command=jiam, relief="solid", width=10).pack()
+Label(root, text='百家姓密文', font=('楷体', 10)).pack()
+miwen = Text(root, width=300, height=4)
+miwen.pack()
+Button(root, text='解密', command=jiem, relief='solid', width=10).pack()
+Label(root, text='解密得到的明文', font=('楷体', 10)).pack()
+mingwen2 = Text(root, width=300, height=4, state="disabled")
+mingwen2.pack()
+root.mainloop()

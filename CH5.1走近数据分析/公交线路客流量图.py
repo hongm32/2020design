@@ -7,9 +7,10 @@ import pandas as pd
 
 # 指定默认字体
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']
-matplotlib.rcParams['font.family'] = 'sans-serif'
+matplotlib.rcParams['axes.unicode_minus'] = False
 
 df = pd.read_excel("27路和49路公交线路客流量表.xlsx", sheet_name='Sheet1', header=1)
+
 plt.figure()
 plt.plot(df['时间段'], df['27路'], linewidth='1', label="小明乘坐线路(27路)", marker='o')
 plt.plot(df['时间段'], df['49路'], linewidth='1', label="妈妈乘坐线路(49路)", marker='o', markersize=6)
