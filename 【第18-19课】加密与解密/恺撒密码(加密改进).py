@@ -1,4 +1,4 @@
-﻿from tkinter import *       # 导入tkinter模块
+﻿import tkinter       # 导入tkinter模块
 
 
 def new_caesar():    # “加密”按钮激发函数
@@ -21,15 +21,15 @@ def new_caesar():    # “加密”按钮激发函数
 m = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 n = 'QWERTYUIOPASDFGHJKLZXCVBNM'
 
-root = Tk()
+root = tkinter.Tk()
 root.title("凯撒加密（改进）")
 root.geometry('300x200')
-Label(root, text='请输入明文', font=('Arial', 10)).pack()
-mingwen = Text(root, width=300, height=4)
+tkinter.Label(root, text='请输入明文', font=('Arial', 10)).pack()
+mingwen = tkinter.Text(root, width=300, height=4)
 mingwen.pack()
 mingwen.focus_set()
-Button(root, text="加密", command=new_caesar, relief="solid", width=10).pack()
-Label(root, text='凯撒密文', font=('Arial', 10)).pack()
-miwen = Text(root, width=300, height=4)
+tkinter.Button(root, text="加密", command=new_caesar, relief="solid", width=10).pack()
+tkinter.Label(root, text='凯撒密文', font=('Arial', 10)).pack()
+miwen = tkinter.Text(root, width=300, height=4)
 miwen.pack()
 root.mainloop()

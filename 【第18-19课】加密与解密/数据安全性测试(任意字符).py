@@ -1,5 +1,4 @@
-from tkinter import *
-from tkinter import ttk
+import tkinter.ttk
 import datetime
 import random
 import string
@@ -83,33 +82,33 @@ def jiemi():
             break
 
 
-root = Tk()
+root = tkinter.Tk()
 root.geometry('300x100')
 root.title("数据安全性测试")
-frm = Frame(root)
+frm = tkinter.Frame(root)
 
 # left
-frm_L = Frame(frm)
-Label(frm_L, text='输入密码：', font=('Arial', 10)).pack()
-Label(frm_L, text='破解用时：', font=('Arial', 10)).pack()
-Label(frm_L, text='你的密码是：', font=('Arial', 10)).pack()
-cmb = ttk.Combobox(frm_L, width=12)
+frm_L = tkinter.Frame(frm)
+tkinter.Label(frm_L, text='输入密码：', font=('Arial', 10)).pack()
+tkinter.Label(frm_L, text='破解用时：', font=('Arial', 10)).pack()
+tkinter.Label(frm_L, text='你的密码是：', font=('Arial', 10)).pack()
+cmb = tkinter.ttk.Combobox(frm_L, width=12)
 cmb.pack()
 cmb['values'] = ('纯数字', '小写字母', '小写字母+数字', '字母+数字', '字母+数字+符号')
 # 设置默认值，即默认下拉框中的内容
 cmb.current(0)
-frm_L.pack(side=LEFT)
+frm_L.pack(side=tkinter.LEFT)
 
 # right
-frm_R = Frame(frm)
-varin = StringVar()
-vartime = StringVar()
-varout = StringVar()
-Entry(frm_R, show='*', textvariable=varin).pack()
-Entry(frm_R, textvariable=vartime, state="disabled").pack()
-Entry(frm_R, textvariable=varout, state="disabled").pack()
-Button(frm_R, text="破解", command=jiemi, relief="solid", width=10).pack()
-frm_R.pack(side=RIGHT)
+frm_R = tkinter.Frame(frm)
+varin = tkinter.StringVar()
+vartime = tkinter.StringVar()
+varout = tkinter.StringVar()
+tkinter.Entry(frm_R, show='*', textvariable=varin).pack()
+tkinter.Entry(frm_R, textvariable=vartime, state="disabled").pack()
+tkinter.Entry(frm_R, textvariable=varout, state="disabled").pack()
+tkinter.Button(frm_R, text="破解", command=jiemi, relief="solid", width=10).pack()
+frm_R.pack(side=tkinter.RIGHT)
 frm.pack()
 
 root.mainloop()

@@ -1,4 +1,4 @@
-﻿from tkinter import *       # 导入tkinter模块
+﻿import tkinter       # 导入tkinter模块
 
 
 def caesarcipher():                                     # “加密”按钮激发函数
@@ -15,15 +15,15 @@ def caesarcipher():                                     # “加密”按钮激�
     miwen.insert("0.0", b)                              # 在miwen对象中显示结果
 
 
-root = Tk()                                             # 建立一个窗口
+root = tkinter.Tk()                                             # 建立一个窗口
 root.title("凯撒加密")                                    # 设置窗口标题
 root.geometry('300x200')                                # 设置窗口大小
-Label(root, text='请输入明文', font=('Arial', 10)).pack()
-mingwen = Text(root, width=300, height=4)
+tkinter.Label(root, text='请输入明文', font=('Arial', 10)).pack()
+mingwen = tkinter.Text(root, width=300, height=4)
 mingwen.pack()
 mingwen.focus_set()                                      # 获得焦点
-Button(root, text="加密", command=caesarcipher, relief="solid", width=10).pack()
-Label(root, text='凯撒密文', font=('Arial', 10)).pack()
-miwen = Text(root, width=300, height=4)
+tkinter.Button(root, text="加密", command=caesarcipher, relief="solid", width=10).pack()
+tkinter.Label(root, text='凯撒密文', font=('Arial', 10)).pack()
+miwen = tkinter.Text(root, width=300, height=4)
 miwen.pack()
 root.mainloop()

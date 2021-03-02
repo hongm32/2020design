@@ -1,5 +1,4 @@
-from tkinter import *
-import tkinter.messagebox
+import tkinter
 import random
 
 names_dict = """
@@ -105,19 +104,19 @@ def jiam():
     # miwen.config(state="disabled")
 
 
-root = Tk()
+root = tkinter.Tk()
 root.title("百家姓")
 root.geometry('300x300')
-Label(root, text='请输入明文', font=('楷体', 10)).pack()
-mingwen = Text(root, width=300, height=4)
+tkinter.Label(root, text='请输入明文', font=('楷体', 10)).pack()
+mingwen = tkinter.Text(root, width=300, height=4)
 mingwen.pack()
 mingwen.focus_set()
-Button(root, text="加密", command=jiam, relief="solid", width=10).pack()
-Label(root, text='百家姓密文', font=('楷体', 10)).pack()
-miwen = Text(root, width=300, height=4)
+tkinter.Button(root, text="加密", command=jiam, relief="solid", width=10).pack()
+tkinter.Label(root, text='百家姓密文', font=('楷体', 10)).pack()
+miwen = tkinter.Text(root, width=300, height=4)
 miwen.pack()
-Button(root, text='解密', command=jiem, relief='solid', width=10).pack()
-Label(root, text='解密得到的明文', font=('楷体', 10)).pack()
-mingwen2 = Text(root, width=300, height=4, state="disabled")
+tkinter.Button(root, text='解密', command=jiem, relief='solid', width=10).pack()
+tkinter.Label(root, text='解密得到的明文', font=('楷体', 10)).pack()
+mingwen2 = tkinter.Text(root, width=300, height=4, state="disabled")
 mingwen2.pack()
 root.mainloop()

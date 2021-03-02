@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 import tkinter.messagebox
 import random
 import datetime
@@ -103,37 +103,37 @@ def scan_files(directory, prefix=None, postfix=None):
 
 # 获取所有年级数据文件列表
 csv_files = scan_files(".", postfix='.csv')
-root = Tk()  # 创建主窗口
+root = tkinter.Tk()  # 创建主窗口
 root.title("随机点名器")  # 设置窗口标题
 root.geometry('840x350+300+200')  # 设置窗口大小及位置
 root.resizable(0, 0)  # 禁止调整窗口大小
-var = StringVar()  # 定义StringVar()类型
-var1 = StringVar()
+var = tkinter.StringVar()  # 定义StringVar()类型
+var1 = tkinter.StringVar()
 b = []  # b作为列表a的备份
 bj = 1
 csv_file = None
 student, student_dict = get_grade(csv_files[-1])
 a = get_data(student, student_dict, 0)
 # 在窗口上建1个Listbox
-lb = Listbox(root, height=3, selectmode=SINGLE)
+lb = tkinter.Listbox(root, height=3, selectmode=tkinter.SINGLE)
 lb.grid(row=0, column=0, padx=20)
 for item in csv_files:
-    lb.insert(END, item)
+    lb.insert(tkinter.END, item)
 lb.selection_set(len(csv_files)-1)
 # 在窗口上建1个Scale
-scale = Scale(root, label=None, from_=1, to=len(student), orient=HORIZONTAL, length=600, showvalue=1,
+scale = tkinter.Scale(root, label=None, from_=1, to=len(student), orient=tkinter.HORIZONTAL, length=600, showvalue=1,
               tickinterval=1, resolution=1, command=get_bj)
 scale.grid(row=0, column=1, padx=20, columnspan=3)
-entry = Entry(root, textvariable=var, font=('黑体', 150), width=8, justify=CENTER)
-entry.grid(row=1, column=0, columnspan=4, padx=20, sticky=NS)
+entry = tkinter.Entry(root, textvariable=var, font=('黑体', 150), width=8, justify=tkinter.CENTER)
+entry.grid(row=1, column=0, columnspan=4, padx=20, sticky=tkinter.NS)
 # 在窗口上建1个Button
-button = Button(root, text="下一个", command=next_map, relief="solid", width=28, font=('黑体', 14))
+button = tkinter.Button(root, text="下一个", command=next_map, relief="solid", width=28, font=('黑体', 14))
 button.grid(row=2, column=0, pady=20, columnspan=2)
 # 在窗口上建1个Entry
-entry2 = Entry(root, textvariable=var1, font=('黑体', 16), width=11, bg='blue', fg='white', justify=CENTER)
+entry2 = tkinter.Entry(root, textvariable=var1, font=('黑体', 16), width=11, bg='blue', fg='white', justify=tkinter.CENTER)
 entry2.grid(row=2, column=2)
 # 在窗口上建1个Button
-button2 = Button(root, text="重置", command=reset, relief="solid", width=6, font=('宋体', 10))
+button2 = tkinter.Button(root, text="重置", command=reset, relief="solid", width=6, font=('宋体', 10))
 button2.grid(row=2, column=3)
 
 reset()

@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 import datetime
 
 
@@ -17,20 +17,20 @@ def jiemi():
                         return 0      # 起结束函数运行的作用
 
 
-root = Tk()
+root = tkinter.Tk()
 root.title("破解超级密码")
 root.geometry('300x100')
-varin = StringVar()
-varout = StringVar()
-frm = Frame(root)
-frm_L = Frame(frm)
-Label(frm_L, text='输入密码：', font=('Arial', 10)).pack()
-Label(frm_L, text='破解用时：', font=('Arial', 10)).pack()
-frm_L.pack(side=LEFT)
-frm_R = Frame(frm)
-Entry(frm_R, textvariable=varin).pack()
-Entry(frm_R, textvariable=varout).pack()
-frm_R.pack(side=RIGHT)
+varin = tkinter.StringVar()
+varout = tkinter.StringVar()
+frm = tkinter.Frame(root)
+frm_L = tkinter.Frame(frm)
+tkinter.Label(frm_L, text='输入密码：', font=('Arial', 10)).pack()
+tkinter.Label(frm_L, text='破解用时：', font=('Arial', 10)).pack()
+frm_L.pack(side=tkinter.LEFT)
+frm_R = tkinter.Frame(frm)
+tkinter.Entry(frm_R, textvariable=varin).pack()
+tkinter.Entry(frm_R, textvariable=varout).pack()
+frm_R.pack(side=tkinter.RIGHT)
 frm.pack()
-Button(root, text="破解", command=jiemi, relief="solid", width=10).pack()
+tkinter.Button(root, text="破解", command=jiemi, relief="solid", width=10).pack()
 root.mainloop()

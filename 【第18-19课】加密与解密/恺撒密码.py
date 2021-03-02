@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 import tkinter.messagebox
 
 
@@ -55,20 +55,20 @@ def caesar_cipher3():  # “对比”按钮激发函数
         tkinter.messagebox.showinfo('恺撒密码', '解密错误！')
 
 
-root = Tk()
+root = tkinter.Tk()
 root.title("恺撒加密")
 root.geometry('300x330')
-Label(root, text='请输入明文', font=('Arial', 10)).pack()
-mingwen = Text(root, width=300, height=4)
+tkinter.Label(root, text='请输入明文', font=('Arial', 10)).pack()
+mingwen = tkinter.Text(root, width=300, height=4)
 mingwen.pack()
 mingwen.focus_set()
-Button(root, text="加密", command=caesar_cipher1, relief="solid", width=10).pack()
-Label(root, text='恺撒密文', font=('Arial', 10)).pack()
-miwen = Text(root, width=300, height=4)
+tkinter.Button(root, text="加密", command=caesar_cipher1, relief="solid", width=10).pack()
+tkinter.Label(root, text='恺撒密文', font=('Arial', 10)).pack()
+miwen = tkinter.Text(root, width=300, height=4)
 miwen.pack()
-Button(root, text='解密', command=caesar_cipher2, relief='solid', width=10).pack()
-Label(root, text='解密得到的凯撒明文', font=('Arial', 10)).pack()
-mingwen2 = Text(root, width=300, height=4, state="disabled")
+tkinter.Button(root, text='解密', command=caesar_cipher2, relief='solid', width=10).pack()
+tkinter.Label(root, text='解密得到的凯撒明文', font=('Arial', 10)).pack()
+mingwen2 = tkinter.Text(root, width=300, height=4, state="disabled")
 mingwen2.pack()
-Button(root, text='对比', command=caesar_cipher3, relief='solid', width=10).pack()
+tkinter.Button(root, text='对比', command=caesar_cipher3, relief='solid', width=10).pack()
 root.mainloop()
