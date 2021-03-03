@@ -35,6 +35,8 @@ plt.bar(data[-1] + 0.4, data[3], width=0.4, label="还数量")
 plt.xticks(data[-1], data[0], rotation=270)  # 坐标轴标签替换，rotaion旋转
 plt.legend(loc='best')  # 图例，best：自动选择最佳位置 upper center：上部居中等
 plt.title('A市自行车借还数量对比图', size=20)
+plt.gca().spines["right"].set_color("none")  # right边框属性设置为none不显示
+plt.gca().spines["top"].set_color("none")  # top边框属性设置为none不显示
 plt.savefig("A市自行车运营情况调查报告图表_借还对比.png")
 plt.show()
 
@@ -47,6 +49,8 @@ plt.plot(data[-1] + 0.2, -data[6])
 plt.xticks(data[-1], data[0], rotation=270)  # 坐标轴标签替换，rotaion旋转
 plt.legend(loc='best')  # 图例，best：自动选择最佳位置 upper center：上部居中等
 plt.title('A市自行车平均毎桩借还数图', size=20)
+plt.gca().spines["right"].set_color("none")  # right边框属性设置为none不显示
+plt.gca().spines["top"].set_color("none")  # top边框属性设置为none不显示
 plt.savefig("A市自行车运营情况调查报告图表_每桩借还.png")
 plt.show()
 
@@ -56,5 +60,7 @@ plt.bar(data[-1], data[7], label="维修数量与还车数量比")
 plt.xticks(data[-1], data[0], rotation=270)  # 坐标轴标签替换，rotaion旋转
 plt.legend(loc='best')  # 图例，best：自动选择最佳位置 upper center：上部居中等
 plt.title('A市自行车还车数与维修量比图', size=20)
+plt.gca().spines["right"].set_color("none")  # right边框属性设置为none不显示
+plt.gca().spines["top"].set_color("none")  # top边框属性设置为none不显示
 plt.savefig("A市自行车运营情况调查报告图表_修还比值.png")
 plt.show()
