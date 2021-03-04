@@ -9,7 +9,7 @@ import pandas as pd
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']
 matplotlib.rcParams['axes.unicode_minus'] = False
 
-df = pd.read_excel("27路和49路公交线路客流量表.xlsx", sheet_name='Sheet1', header=1)
+df = pd.read_excel("27路和49路公交线路客流量表.xlsx", header=1)
 
 plt.figure()
 plt.plot(df['时间段'], df['27路'], linewidth='1', label="小明乘坐线路(27路)", marker='o')
