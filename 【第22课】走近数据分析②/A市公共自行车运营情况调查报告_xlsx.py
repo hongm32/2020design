@@ -1,13 +1,14 @@
-import csv
 import matplotlib
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 
-# 指定默认字体
+# 指定默认字体，负号显示问题
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']
 matplotlib.rcParams['axes.unicode_minus'] = False
+
+# 设置柱形力宽度
+bar_width = 0.4  # 默认0.8
 
 # 读取数据
 file = "A市公共自行车一月份运营数据.xlsx"
@@ -19,8 +20,8 @@ plt.figure(figsize=(12, 12))
 
 # A市自行车借还数量对比图
 plt.subplot(3,  1,  1)  # 建立subplot网格，高为3，宽为1，激活第一个子图
-plt.bar(data.index, data["借数量"], width=0.4, label="借数量")
-plt.bar(data.index + 0.4, data["还数量"], width=0.4, label="还数量")
+plt.bar(data.index, data["借数量"], width=bar_width, label="借数量")
+plt.bar(data.index + bar_width, data["还数量"], width=bar_width, label="还数量")
 plt.xticks(data.index, data["投放站点编号"], rotation=270)  # 坐标轴标签替换，rotaion旋转
 plt.legend(loc='best')  # 图例，best：自动选择最佳位置 upper center：上部居中等
 plt.title('A市自行车借还数量对比图', size=20)
@@ -31,10 +32,10 @@ plt.gca().spines["top"].set_color("none")  # top边框属性设置为none不显�
 data["每桩借车数"] = data["借数量"] / data["锁车桩数"]
 data["每桩还车数"] = data["还数量"] / data["锁车桩数"]
 plt.subplot(3,  1,  2)
-plt.bar(data.index, data["每桩借车数"], label="平均每桩借车数")
-plt.bar(data.index + 0.4, data["每桩还车数"], label="平均每桩还车数")
-plt.plot(data.index + 0.2, -data["每桩借车数"])
-plt.plot(data.index + 0.2, -data["每桩还车数"])
+plt.bar(data.index, data["每桩借车数"], width=bar_width, label="平均每桩借车数")
+plt.bar(data.index + bar_width, data["每桩还车数"], width=bar_width, label="平均每桩还车数")
+plt.plot(data.index + bar_width / 2, -data["每桩借车数"])
+plt.plot(data.index + bar_width / 2, -data["每桩还车数"])
 plt.xticks(data.index, data["投放站点编号"], rotation=270)  # 坐标轴标签替换，rotaion旋转
 plt.legend(loc='best')  # 图例，best：自动选择最佳位置 upper center：上部居中等
 plt.title('A市自行车平均毎桩借还数图', size=20)
