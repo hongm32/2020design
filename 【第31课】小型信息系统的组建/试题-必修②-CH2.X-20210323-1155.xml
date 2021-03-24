@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2579633  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-101</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列存储器中，存于其中的信息断电后会全部丢失的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">RAM<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ROM<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">U</span>盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">光盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579635  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-102</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">组成<span lang="EN-US">CPU</span>的是控制器和(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">高速缓存<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">运算器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">CMOS<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">主存<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579637  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-103</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列与计算机硬盘容量无关的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">硬盘磁头数<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">硬盘柱面数<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">每一个柱面的扇区数<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">硬盘尺寸<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579639  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-104</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列存储器按读写速度由高到低排列，正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">RAM</span><span lang="EN-US">、</span><span lang="EN-US">cache</span><span lang="EN-US">、</span>硬盘、光盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">cache</span><span lang="EN-US">、</span><span lang="EN-US">RAM</span><span lang="EN-US">、</span>硬盘、光盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">RAM<span lang="EN-US">、硬盘、</span>cache<span lang="EN-US">、光盘</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">cache<span lang="EN-US">、</span>RAM<span lang="EN-US">、光盘、硬盘</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579641  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-105</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列软件组合中，全部属于系统软件的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Python、DOS<span lang="EN-US">、</span>WPS、Windows<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Windows<span lang="EN-US">、</span>iOS<span lang="EN-US">、</span>HarmonyOS、Linux<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Windows<span lang="EN-US">、</span>Office<span lang="EN-US">、</span>WPS<span lang="EN-US">、</span>C<span lang="EN-US">++</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">编译程序、系统诊断程序、数据库管理系统、文字处理程序<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579643  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-106</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">交换式以太网采用的拓扑结构是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">环型<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">总线型<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">星型<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">树型<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579645  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-107</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列网络拓扑结构图中，属于星型结构的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/CH2.X-107_1.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="234" height="94"><br></p>]]></text>
+<file name="CH2.X-107_1.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/CH2.X-107_2.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="175" height="167"><br></p>]]></text>
+<file name="CH2.X-107_2.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/CH2.X-107_3.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="240" height="146"><br></p>]]></text>
+<file name="CH2.X-107_3.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAPAAAACSCAYAAAB7aUfDAAAgAElEQVR4nO2dC7xNZdrAl0jTbdIF6SLlmvuJVJgQEhm3KUrI5WRKMtGgqKlUTFOoZJqJdJFLxBnXooxr5JJDGiSSRDFFxSjGtL71f77Wbjtn7XP2Za31rrX3+//9didnr/PuZ6+1nvW+73MtYloYGo0mlJykWgCNRpM8WoE1mhCjFVijCTFagTWaEKMVWKMJMVqBNZoQU0y1ABrv2bt3r7FhwwajSJEiRpUqVYxLL71UtUgal9AKnMbs27fPWL58ufH2228bL730kvyuc+fOxi233GLUrFnTuOSSSxRLqEmVIjqQIz05ePCgMXToUOP11183WrdubZxyyinGySefbLz//vvGpk2bjC5duhhPPfWUcf7556sWVZMKpibtOHDggJmdnW2eddZZpqXAJ7y3cOFCs1KlSjy0zWnTpimSUOMWWoHTDGvmNbt3726WKFHCnDp1quMx7777rlm2bFmzVatW5ueff+6zhBo30VboNOOrr74yXnnlFaNGjRpGp06dHI9p2rSpvObPn2989NFHPkuocROtwBpNiNEKrNGEGK3AaUpubq4xYsQI1WJoPEYrcBqB37dly5by/4cPHzaeeOIJY/jw4fmO+/vf/y77ZN5/8803JbBjy5YtfourcQHtB04DUFaMVmXKlDGeeeYZo3jx4saaNWuM3//+98Y555wj0VfHjx+XY4sVKyaz8z333CMK/PHHHxuHDh0y/vSnP4lBa926dcYFF1yg+Btp4ka1GVyTPP/73//MypUrmz/99JO5du1ac9OmTZH3LIU1x44dK/7evK9BgwaZx44dO2EsawY2LQU269SpY5YqVcr8/vvv/f46miTQM3BIqVChgkRUEedcvnx5x2N++OEH48svvzROOumXnZKl7MZ5551n/PrXv3b8m507d8rPZs2aGUeOHDH27Nlzwt9rgoVW4JBhzbjGkiVLRKmsmVISFLwAxbdmeKNWrVrGmWeeaXz22WeefI4mNbQCh4QrrrjCePXVV43LLrvMOPXUU32bFb/99lvDWk7LLM/DQwd+BAu9NgoozH5AxNTChQuN9evXG9WqVTNOP/10X5e0JUqUMMqWLSvL6ZycHJnxGzZsKO/ZhjGNOnQ6YcA4evSoZA5169bNuP76641FixZF3lO5FyWT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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/CH2.X-107_4.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="165" height="154"><br></p>]]></text>
+<file name="CH2.X-107_4.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579647  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-108</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">二进制数10110110与00111001进行逻辑“与”运算的结果为十进制数(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">48<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">125<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">191<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">201<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579649  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-109</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一个十六进制数需要用几位二进制数表示？<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">3<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">4<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579651  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-110</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">若要将两种不同的网络连接起来进行数据通信，必须使用的设备是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">交换机<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">路由器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">防火墙<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">中继器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579653  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-111</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">交警能用仪器测出驾驶员是否饮酒，是因为该仪器安装了(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">光敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">气敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">热敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">压敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579655  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-112</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">医疗额温枪体温计能够在不接触人体的情况下测量人体的温度，是因为测温计安装了(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">光敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">气敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">热敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">压敏传感器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579657  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-201</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于内存储器的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">RAM<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ROM<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DVD<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">SSD<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579659  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-202</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于<span lang="EN-US">IP</span>地址的叙述正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">IPv</span>4由32位二进制数组成<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">IPv</span>4采用点分十进制表示<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">IPv</span><span lang="EN-US">6</span>的长度为6个字节<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">IPv</span>6采用每两个字节之间用分割的表示形式<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579661  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-203</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于无线网络组成部分的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">无线网卡<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">无线接入点<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">接入控制器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">移动终端<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579663  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-204</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列<span lang="EN-US">IP</span>地址中，可以作为主机地址的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">10.255.254.0</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">161.22.13.5<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<span lang="EN-US">192.16.2.1</span>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">192.1.1.0<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579665  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-205</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列信息系统中，使用了<span lang="EN-US">RFID</span>技术的有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">指纹考勤管理系统<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">自助图书管理系统<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">高铁站使用身份证及人脸识别检票系统<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">高速公路不停车电子收费系统<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579667  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.X-206</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于大数据与物联网的叙述正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">大数据与物联网都是现代信息技术的前沿科技<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">大数据与物联网是两个独立的信息技术发展方向，它们之间没有什么联系<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">物联网产生大数据<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">大数据助力物联<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579669  -->
+  <question type="truefalse">
+    <name>
+      <text>CH2.X-301</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">由于固态硬盘属于<span lang="EN-US">FlashROM</span>,所以固态硬盘属于内存储器。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579671  -->
+  <question type="truefalse">
+    <name>
+      <text>CH2.X-302</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">—台路由器至少要有两个<span lang="EN-US">IP</span>地址。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579673  -->
+  <question type="truefalse">
+    <name>
+      <text>CH2.X-303</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在局域中，用来唯一标识主机的是MAC地址，而不是IP地址。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579675  -->
+  <question type="truefalse">
+    <name>
+      <text>CH2.X-304</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">TCP/IP协议包含两个协议，即TCP协议和IP协议。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579677  -->
+  <question type="truefalse">
+    <name>
+      <text>CH2.X-305</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">开关三极管工作于截止区和饱和区，分别相当于电路的导通和断开。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
