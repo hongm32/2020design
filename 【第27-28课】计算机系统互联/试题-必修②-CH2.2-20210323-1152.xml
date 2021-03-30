@@ -1051,7 +1051,7 @@
       <text>CH2.2-205</text>
     </name>
     <questiontext format="html">
-      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列可用于主机的IP地址的是(　　)。<br></p>]]></text>
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">默认子网掩码下，下列可用于主机的IP地址的是(　　)。<br></p>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -1074,13 +1074,13 @@
       <text>您的答案不正确</text>
     </incorrectfeedback>
     <shownumcorrect/>
-    <answer fraction="50" format="html">
+    <answer fraction="33.33333" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">12.255.255.0</span><br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="-100" format="html">
+    <answer fraction="33.33333" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">131.0.0.255</span><br></p>]]></text>
       <feedback format="html">
         <text></text>
@@ -1092,7 +1092,7 @@
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="50" format="html">
+    <answer fraction="33.33333" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">192.0.0.201</span><br></p>]]></text>
       <feedback format="html">
         <text></text>

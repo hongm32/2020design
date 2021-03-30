@@ -145,13 +145,13 @@
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="0" format="html">
+    <answer fraction="100" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">MAC</span>地址<br></p>]]></text>
       <feedback format="html">
         <text></text>
       </feedback>
     </answer>
-    <answer fraction="100" format="html">
+    <answer fraction="0" format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">子网掩码<br></p>]]></text>
       <feedback format="html">
         <text></text>
