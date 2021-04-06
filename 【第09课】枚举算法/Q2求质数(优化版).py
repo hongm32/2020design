@@ -2,14 +2,35 @@
 import time
 
 
+def is_prime(n):
+    """判断是否质数"""
+    if n == 2:
+        return 1
+    if n <= 1 or not n % 2:
+        return 0
+    for div in range(3, n):
+        if n % div == 0:
+            return 0
+    return 1
+
+
+def is_prime_optimize(n):
+    """判断是否质数"""
+    if n == 2:
+        return 1
+    if n <= 1 or not n % 2:
+        return 0
+    for div in range(3, int(n ** 0.5) + 1, 2):  # 优化2：除数到平方根，减少循环次数
+        if n % div == 0:
+            return 0
+    return 1
+
+
 # 返回所有质数
 def prime(number):
     prime_list = []
     for i in range(2, number + 1):
-        for j in range(2, i):
-            if i % j == 0:
-                break
-        else:
+        if is_prime(i):
             prime_list.append(i)
     return prime_list
 
@@ -20,11 +41,8 @@ def prime_optimize(number):
         return []
     else:
         prime_list = [2]
-    for i in range(3, number + 1, 2):  # 优化2：除2外，偶数不是质数
-        for j in range(2, int(i ** 0.5) + 1):  # 优化1：如果n不是质数, 则n有满足1<d<=sqrt(n)的因子d
-            if i % j == 0:
-                break
-        else:
+    for i in range(3, number + 1, 2):  # 优化1：除2外，偶数不是质数
+        if is_prime_optimize(i):
             prime_list.append(i)
     return prime_list
 

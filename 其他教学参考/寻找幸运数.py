@@ -15,8 +15,13 @@
 
 
 def is_prime(n):
-    for k in range(2, int(n ** 0.5) + 1):
-        if n % k == 0:
+    """判断是否质数"""
+    if n == 2:
+        return 1
+    if n <= 1 or not n % 2:
+        return 0
+    for div in range(3, int(n ** 0.5) + 1, 2):
+        if n % div == 0:
             return 0
     return 1
 
