@@ -90,9 +90,11 @@ def CmdAdd():         # 增加记录
     top.focus_set()
     e1[0].focus_set()
 
+
 def callback0():
     if tkinter.messagebox.askokcancel("图书信息管理系统", "真心要退出？"):
         root.destroy()
+
 
 def callback():
     msgtitle="增加记录" if AddMdf == 0 else "修改记录"
@@ -103,6 +105,7 @@ def callback():
     else:
         top.focus_set()
         e1[0].focus_set()
+
 
 def CmdSubmit():   # 提交
     vals = []
@@ -125,6 +128,7 @@ def CmdSubmit():   # 提交
     top.destroy()
     root.deiconify()   # 显示窗体
     CmdChk()
+
 
 def CmdCancel():       # 取消
     vals = []
@@ -156,7 +160,8 @@ def CmdDel():      # 删除记录（可以同时选中多行同时删除）
         conn.Execute(sql)  # 执行sql语句
         conn.Close()
         CmdChk()
-    
+
+
 def CmdMdf():      # 修改记录
     if v.get() == 0:
         tkinter.messagebox.showinfo('图书信息管理系统', '请先选择数据表名。')
@@ -189,12 +194,15 @@ def CmdMdf():      # 修改记录
     top.focus_set()
     e1[0].focus_set()
 
+
 def CmdQry():
     tkinter.messagebox.showinfo('图书信息管理系统', '“查询”功能期待你的加盟哦~~')
 
+
 def CmdGrp():
     tkinter.messagebox.showinfo('图书信息管理系统', '“备用”功能期待你的加盟哦~~')
-    
+
+
 def treeviewClick(event):  # 单击
     global CrRecFstVolVal, rec1val
     CrRecFstVolVal = []
