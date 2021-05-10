@@ -191,12 +191,15 @@
     - 掌握在可视化环境中创建数据表的方法
     - 能够根据信息管理需求合理设置字段属性
 
-* [【第38课】信息系统的数据输入](https://github.com/hongm32/2020design/tree/master/【第38课】信息系统的数据输入)
+* [【第38课】Python访问Access数据库](https://github.com/hongm32/2020design/tree/master/【第38课】Python访问Access数据库)
+    - 掌握Python访问数据库的方法与步骤
+
+* [【第39课】信息系统的数据输入](https://github.com/hongm32/2020design/tree/master/【第39课】信息系统的数据输入)
     - 能够根据信息输入的要求设计HTML网页
     - 理解信息系统数据访问的基本过程
     - 能够描述将用户输入信息存储到数据库中的基本过程
 
-* [【第39-40课】信息系统的数据处理](https://github.com/hongm32/2020design/tree/master/【第39-40课】信息系统的数据处理)
+* [【第40课】信息系统的数据处理](https://github.com/hongm32/2020design/tree/master/【第40课】信息系统的数据处理)
     - 能够描述信息系统中的数据处理流程
     - 理解信息系统通过程序实施自动化数据处理的方式
 

@@ -3,13 +3,16 @@ import win32com.client
 
 mdb_file = "图书借阅管理.mdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
-DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
+# DSN = 'PROVIDER = Microsoft.Jet.OLEDB.4.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007以前版本
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后版本
 conn.Open(DSN)  # 用游标打开数据连接
+
 
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 sql = 'books'
-rs.Open(sql, conn, 1, 3)
+# sql = "SELECT * FROM books"
+rs.Open(sql, conn, 1, 1)
 # Open(Source,ActiveConnection,CursorType,LockType,Options)说明：
 # Source:数据表
 # ActiveConnection：Recordset对象，可以是一个Connection对象或是一串包含数据库连接信息（ConnectionString）的字符串参数。
