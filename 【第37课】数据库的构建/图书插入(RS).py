@@ -1,0 +1,28 @@
+import win32com.client
+
+tablename = "books"
+conn = win32com.client.Dispatch(r"ADODB.Connection")
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = 图书借阅管理.mdb'  # Access2007及以后
+conn.Open(DSN)
+rs = win32com.client.Dispatch(r'ADODB.Recordset')
+# sql = 'books'
+sql = "SELECT * FROM books"
+rs.Open(sql, conn, 1, 3)
+
+print('表{}已有{}条记录'.format(tablename, rs.RecordCount))
+print("新增记录：")
+
+rs.AddNew()  # 添加记录到数据表末端
+for i in range(rs.Fields.Count):
+    while True:
+        temp = input('  {}: '.format(rs.Fields[i].Name))
+        if temp:
+            if rs.Fields[i].Type == 3:
+                rs.Fields[i].Value = int(temp)
+            else:
+                rs.Fields[i].Value = temp
+            break
+
+rs.Update()  # 更新数据表记录
+
+conn.Close()  # 关闭连接

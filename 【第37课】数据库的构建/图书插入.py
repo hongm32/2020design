@@ -1,28 +1,11 @@
 import win32com.client
 
-
+tablename = "books"
 conn = win32com.client.Dispatch(r"ADODB.Connection")
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = 图书借阅管理.mdb'  # Access2007及以后
 conn.Open(DSN)
-rs = win32com.client.Dispatch(r'ADODB.Recordset')
-tablename = 'books'
-rs.Open(tablename, conn, 1, 3)
 
-print('表{}已有{}条记录'.format(tablename, rs.RecordCount))
-info = []
-fields_name = []
-for i in range(rs.Fields.Count):
-    fields_name.append(rs.Fields[i].Name)
-    while True:
-        temp = input('{}: '.format(rs.Fields[i].Name))
-        if temp:
-            if rs.Fields[i].Type == 3:
-                info.append(int(temp))
-            else:
-                info.append(temp)
-            break
-
-sql = "INSERT INTO {}{} VALUES {}".format(tablename, str(tuple(fields_name)).replace("'", ""), tuple(info))
+sql = "INSERT INTO books (ISBN,书名,作者,类型,出版时间,数量) VALUES ('978-7-5499-8387-2','教育写作','颜莹','教育','202-3-1',9)"
 conn.Execute(sql)  # 执行sql语句
 
 conn.Close()

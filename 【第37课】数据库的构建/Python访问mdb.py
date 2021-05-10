@@ -1,7 +1,5 @@
-# 先要安装与Python和操作系统匹配的pywin32
-# 利用win32com.client模块的COM组件访问功能，通过ADODB访问Access的mdb文件
-# 建立数据库连接
 import win32com.client
+
 
 mdb_file = "图书借阅管理.mdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
@@ -41,7 +39,7 @@ rs.RecordCount 返回记录总数
 rs.BOF 返回记录指针是否超出数据表首端，true表示是，false为否 
 rs.EOF 返回记录指针是否超出数据表末端，true表示是，false为否 
 rs.Delete 删除当前记录，但记录指针不会向下移动 
-rs.AddNew 添加记录到数据表末端 
+rs.AddNew 添加记录到数据表末端
 rs.Update 更新数据表记录
 rs.GetRows 获取行数据元组"""
 
@@ -54,6 +52,7 @@ while not rs.EOF:
 
 print('该表有{}个字段'.format(rs.Fields.Count))
 print('该表有{}条记录'.format(rs.RecordCount))
+
 
 # 关闭连接
 conn.Close()

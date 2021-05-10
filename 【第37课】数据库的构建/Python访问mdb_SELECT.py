@@ -1,7 +1,5 @@
-# 先要安装与Python和操作系统匹配的pywin32
-# 利用win32com.client模块的COM组件访问功能，通过ADODB访问Access的mdb文件
-# 建立数据库连接
 import win32com.client
+
 
 mdb_file = "图书借阅管理.mdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
