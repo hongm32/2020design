@@ -1,9 +1,9 @@
 import win32com.client
 
-tablename = "books"
-conn = win32com.client.Dispatch(r"ADODB.Connection")
-DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = 图书借阅管理.mdb'  # Access2007及以后
-conn.Open(DSN)
+mdb_file = "图书借阅管理.mdb"  # 数据库文件
+conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
+conn.Open(DSN)  # 用游标打开数据连接
 
 sql = "DELETE FROM books WHERE 书名='教育写作'"
 """DELETE命令格式：

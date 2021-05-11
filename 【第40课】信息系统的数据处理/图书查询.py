@@ -1,18 +1,21 @@
 import win32com.client
 
 
-conn = win32com.client.Dispatch(r"ADODB.Connection")
-DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = 图书借阅管理.mdb'  # Access2007及以后
-conn.Open(DSN)
+mdb_file = "图书借阅管理.mdb"  # 数据库文件
+conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
+conn.Open(DSN)  # 用游标打开数据连接
+
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 # 查询语句
 sql = "SELECT * FROM books WHERE 数量<5 OR 类型='教材'"
+# sql = "SELECT * FROM books WHERE 作者 LIKE '李%'"  # 模糊查询
 rs.Open(sql, conn, 1, 1)
 
 print('查询到{}条记录：\n'.format(rs.RecordCount))
 # 遍历记录，读取数据
-rs.MoveFirst()  #光标移到首条记录
+# rs.MoveFirst()  #光标移到首条记录
 while not rs.EOF:
     for i in range(rs.Fields.Count):
         print('  {}: {}'.format(rs.Fields[i].Name, rs.Fields[i].Value))    # 字段名：字段内容

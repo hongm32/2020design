@@ -1,15 +1,17 @@
 import win32com.client
 
-tablename = "books"
-conn = win32com.client.Dispatch(r"ADODB.Connection")
-DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = 图书借阅管理.mdb'  # Access2007及以后
-conn.Open(DSN)
+
+mdb_file = "图书借阅管理.mdb"  # 数据库文件
+conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
+conn.Open(DSN)  # 用游标打开数据连接
+
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
-# sql = 'books'
+table = 'books'
 sql = "SELECT * FROM books"
 rs.Open(sql, conn, 1, 3)
 
-print('表{}已有{}条记录'.format(tablename, rs.RecordCount))
+print('表{}已有{}条记录'.format(table, rs.RecordCount))
 info = []
 fields_name = []
 for i in range(rs.Fields.Count):
@@ -23,7 +25,7 @@ for i in range(rs.Fields.Count):
                 info.append(temp)
             break
 
-sql = "INSERT INTO {}{} VALUES {}".format(tablename, str(tuple(fields_name)).replace("'", ""), tuple(info))
+sql = "INSERT INTO {}{} VALUES {}".format(table, str(tuple(fields_name)).replace("'", ""), tuple(info))
 conn.Execute(sql)  # 执行sql语句
 
 conn.Close()

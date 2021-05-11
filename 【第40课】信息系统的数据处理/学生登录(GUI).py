@@ -32,7 +32,7 @@ rs = win32com.client.Dispatch(r'ADODB.Recordset')
 TABLE = "student"
 
 win = tk.Tk()
-win.title("登陆界面")
+win.title("登录界面")
 win.geometry('350x400')
 win.resizable(0, 0)  # 禁止调整窗口大小
 var1 = tk.StringVar()
@@ -45,7 +45,7 @@ tk.Label(win, text="密码", width=5).grid(row=2, column=0)
 tk.Entry(win, textvariable=var1, width=30).grid(row=1, column=1)
 tk.Entry(win, textvariable=var2, width=30).grid(row=2, column=1)
 # 在窗口上创建一个按钮
-tk.Button(win, command=Button1, text="登陆", relief="solid", width=15).grid(row=3, column=1)
+tk.Button(win, command=Button1, text="登录", relief="solid", width=15).grid(row=3, column=1)
 
 # 进入事件循环
 win.mainloop()
