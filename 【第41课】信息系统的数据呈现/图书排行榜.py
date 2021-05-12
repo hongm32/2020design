@@ -15,7 +15,7 @@ rs.Open(sql, conn, 1, 3)
 
 print('查询到{}条记录：\n'.format(rs.RecordCount))
 # 遍历记录，读取数据
-rs.MoveFirst()  #光标移到首条记录
+rs.MoveFirst()  # 光标移到首条记录
 while not rs.EOF:
     for i in range(rs.Fields.Count):
         print('  {}: {}'.format(rs.Fields[i].Name, rs.Fields[i].Value))    # 字段名：字段内容

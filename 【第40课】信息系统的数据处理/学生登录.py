@@ -10,7 +10,7 @@ conn.Open(DSN)  # 用游标打开数据连接
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 
 
-student_number= input("输入学号：")
+student_number = input("输入学号：")
 if not student_number:
     print("学号输入无效！")
     exit()
