@@ -11,15 +11,18 @@ sql = "SELECT * FROM {}".format(table)
 rs.Open(sql, conn, 1, 3)
 
 print('表{}已有{}条记录'.format(table, rs.RecordCount))
+print("新增记录：")
 
 rs.AddNew()  # 添加记录到数据表末端
-# 更新各字段的值
-rs("ISBN").Value = '978-7-5499-8387-2'
-rs("书名").Value = "教育写作"
-rs("作者").Value = '颜莹'
-rs("类型").Value = '教育'
-rs("出版时间").Value = '202-3-1'
-rs("数量").Value = 9
+for i in range(rs.Fields.Count):
+    while True:
+        temp = input('  {}: '.format(rs.Fields[i].Name))
+        if temp:
+            if rs.Fields[i].Type == 3:
+                rs.Fields[i].Value = int(temp)
+            else:
+                rs.Fields[i].Value = temp
+            break
 
 rs.Update()  # 更新数据表记录
 

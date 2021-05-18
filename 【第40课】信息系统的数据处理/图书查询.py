@@ -11,6 +11,9 @@ rs = win32com.client.Dispatch(r'ADODB.Recordset')
 # 查询语句
 sql = "SELECT * FROM books WHERE 数量<5 OR 类型='教材'"
 # sql = "SELECT * FROM books WHERE 作者 LIKE '李%'"  # 模糊查询
+# sql = """SELECT borrow.学号,student.姓名,borrow.ISBN,books.书名
+#       FROM books,borrow,student
+#       WHERE borrow.学号=student.学号 AND borrow.ISBN=books.ISBN"""  # 多表查询
 rs.Open(sql, conn, 1, 1)
 
 print('查询到{}条记录：\n'.format(rs.RecordCount))
