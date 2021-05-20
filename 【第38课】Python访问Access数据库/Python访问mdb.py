@@ -1,7 +1,7 @@
 import win32com.client
 
 
-mdb_file = "图书借阅管理.mdb"  # 数据库文件
+mdb_file = "../【第37课】数据库的构建/图书借阅管理.mdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 try:
     DSN = 'PROVIDER = Microsoft.Jet.OLEDB.4.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007以前版本

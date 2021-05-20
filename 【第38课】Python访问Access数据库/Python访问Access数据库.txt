@@ -30,6 +30,8 @@ while not rs.EOF:
 sql = "SQL语句"
 conn.Execute(sql)
 
+5、关闭连接对象
+conn.Close()
 
 
 

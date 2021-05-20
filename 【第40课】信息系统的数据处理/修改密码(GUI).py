@@ -84,7 +84,7 @@ def windows2():
     tk.Button(win2, command=Button2, text="确定", relief="solid", width=15).grid(row=4, column=1)
 
 
-mdb_file = "图书借阅管理.mdb"  # 数据库文件
+mdb_file = "../【第37课】数据库的构建/图书借阅管理.mdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接
