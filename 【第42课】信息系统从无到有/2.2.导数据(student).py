@@ -10,7 +10,7 @@ for idx in range(2):
             if line:
                 data[idx].append(line)
 
-mdb_file = "Database2.mdb"  # 数据库文件
+mdb_file = "Database.accdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接
@@ -31,7 +31,7 @@ for nj, grade in enumerate(["高一", "高二", "高三"]):
                 sex_info = "男"
             else:
                 sex_info = "女"
-            name = random.choice(data[sex])
+            name = data[sex].pop()
             # info.extend([name, sex_info])
             info.append(name)
             info.append(sex_info)

@@ -74,8 +74,9 @@ def not_borrow():
     rs.Open(sql, conn, 1, 1)
     return rs.EOF
 
+
 if __name__ == "__main__":
-    mdb_file = "Database2.mdb"  # 数据库文件
+    mdb_file = "Database.accdb"  # 数据库文件
     conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
     DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
     conn.Open(DSN)  # 用游标打开数据连接
