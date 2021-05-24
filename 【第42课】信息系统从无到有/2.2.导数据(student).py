@@ -4,7 +4,7 @@ import win32com.client
 
 data = [[], []]
 for idx in range(2):
-    with open(f"name_{idx}.txt", "r", encoding="UTF-8") as f:
+    with open("name_{}.txt".format(idx), "r", encoding="UTF-8") as f:
         for line in f:
             line = line.replace("\n", "")
             if line:
@@ -16,7 +16,7 @@ DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  #
 conn.Open(DSN)  # 用游标打开数据连接
 
 sql = """INSERT INTO student (学号,密码,姓名,性别,年龄,年级,班级)
-                 VALUES {}"""
+             VALUES {}"""
 
 for nj, grade in enumerate(["高一", "高二", "高三"]):
     for bj in range(1, 13):
@@ -31,7 +31,7 @@ for nj, grade in enumerate(["高一", "高二", "高三"]):
                 sex_info = "男"
             else:
                 sex_info = "女"
-            name = data[sex].pop()
+            name = random.choice(data[sex])
             # info.extend([name, sex_info])
             info.append(name)
             info.append(sex_info)
