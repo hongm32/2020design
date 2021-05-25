@@ -20,7 +20,7 @@ def modify():
                         WHERE ISBN='{}'""".format(select_isbn)
     conn.Execute(sql_update)  # 执行sql语句
     # 将预约信息插入借阅表
-    today = time.strftime('%Y-%m-%d ', time.localtime(time.time()))  # 获取当前日期，作为借阅日期
+    today = time.strftime('%Y-%m-%d ', time.localtime(time.time() - random.randint(0, 10) * 86400))  # 获取当前日期-RANDOM，作为借阅日期
     sql_insert = """INSERT INTO borrow(学号,ISBN,借阅日期) 
                         VALUES ('{}','{}','{}')""".format(student_number,
                                                           select_isbn,
@@ -35,7 +35,22 @@ conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接
 
-for i in range(100):
+sql = """CREATE TABLE borrow(
+            id      INT NOT NULL,
+            学号     VARCHAR(5),
+            ISBN    VARCHAR(17),
+            借阅日期 VARCHAR(10),
+            PRIMARY KEY (id))"""
+try:
+    conn.Execute(sql)  # 创建表[borrow]
+except:
+    conn.Execute("""DROP TABLE [borrow]""")  # 删除表[borrow]
+    conn.Execute(sql)  # 创建表[borrowt]
+sql = """ALTER TABLE [borrow] 
+            ALTER COLUMN [id] COUNTER (1, 1)"""
+conn.Execute(sql)  # 设置表[borrow]字段[id]为自动编号
+
+for i in range(200):
     nj = random.randint(1, 3)
     bj = random.randint(1, 12)
     idx = random.randint(1, 54)

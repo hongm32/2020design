@@ -7,7 +7,7 @@ conn.Open(DSN)  # 用游标打开数据连接
 
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 table = 'books'
-sql = "SELECT * FROM {}".format(table)
+sql = """SELECT * FROM {}""".format(table)
 rs.Open(sql, conn, 1, 3)
 
 print('表{}已有{}条记录'.format(table, rs.RecordCount))

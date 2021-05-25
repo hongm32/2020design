@@ -56,11 +56,14 @@ def modify():
     """预约图书并更新可借阅图书数量"""
     try:
         # 更新图书数量
-        sql_update = "UPDATE books SET [数量]=[数量]-1 WHERE ISBN='{}'".format(select_isbn)
+        sql_update = """UPDATE [books] 
+                            SET [数量]=[数量]-1 
+                            WHERE [ISBN]='{}'""".format(select_isbn)
         conn.Execute(sql_update)  # 执行sql语句
         # 将预约信息插入借阅表
         today = time.strftime('%Y-%m-%d ', time.localtime(time.time()))  # 获取当前日期，作为借阅日期
-        sql_insert = "INSERT INTO borrow(学号,ISBN,借阅日期) VALUES ('{}','{}','{}')".format(
+        sql_insert = """INSERT INTO [borrow] ([学号],[ISBN],[借阅日期]) 
+                            VALUES ('{}','{}','{}')""".format(
             student_number, select_isbn, today)
         conn.Execute(sql_insert)
     except BaseException:
@@ -70,7 +73,10 @@ def modify():
 
 def not_borrow():
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
-    sql = "SELECT * FROM borrow WHERE ISBN='{}' AND 学号='{}'".format(select_isbn, student_number)
+    sql = """SELECT 
+                 * 
+                 FROM [borrow] 
+                 WHERE [ISBN]='{}' AND [学号]='{}'""".format(select_isbn, student_number)
     rs.Open(sql, conn, 1, 1)
     return rs.EOF
 

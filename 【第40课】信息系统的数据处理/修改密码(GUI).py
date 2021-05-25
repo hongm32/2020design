@@ -9,7 +9,10 @@ def Button1():
 
     name = var11.get()
     password = var12.get()
-    sql1 = "SELECT * FROM {} WHERE {}='{}'".format(Table, Name, name)
+    sql1 = """SELECT 
+                  * 
+                  FROM {} 
+                  WHERE {}='{}'""".format(Table, Name, name)
     rs.Open(sql1, conn, 1, 1)
     if rs.RecordCount:
         while not rs.EOF:
@@ -29,7 +32,9 @@ def Button2():
     password22 = var22.get()
     password23 = var23.get()
     if password == password21 and password22 == password23 and password != password23:
-        sql2 = "UPDATE {} SET {}='{}' WHERE {}='{}';".format(Table, Password, password23, Name, name)
+        sql2 = """UPDATE {} 
+                      SET {}='{}' 
+                      WHERE {}='{}'""".format(Table, Password, password23, Name, name)
         conn.Execute(sql2)
         tkinter.messagebox.showinfo("正确", "密码修改成功！")
         win2.destroy()

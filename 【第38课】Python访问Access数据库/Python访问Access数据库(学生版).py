@@ -12,7 +12,7 @@ except:
 
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
-sql = "SELECT * FROM books"
+sql = """SELECT * FROM books"""
 rs.Open(sql, conn, 1, 1)
 
 rs.MoveFirst()  # 光标移到首条记录

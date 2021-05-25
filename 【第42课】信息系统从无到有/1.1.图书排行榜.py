@@ -9,12 +9,12 @@ conn.Open(DSN)  # 用游标打开数据连接
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 # 查询语句
-sql = """SELECT 
-             TOP 8 
+sql = """SELECT
+             TOP 8
              ISBN,
-                 COUNT(*) AS [借阅数量] 
-             FROM [borrow] 
-             GROUP BY ISBN 
+                 COUNT(*) AS [借阅数量]
+             FROM [borrow]
+             GROUP BY ISBN
              ORDER BY COUNT(*) DESC"""  # 聚合字段别名不能用于排序
 rs.Open(sql, conn, 1, 1)
 

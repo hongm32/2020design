@@ -7,7 +7,10 @@ import win32com.client
 def Button1():
     name = var1.get()
     passwd = var2.get()
-    sql = "SELECT 学号,密码 FROM student WHERE 学号='{}'".format(name)
+    sql = """SELECT 
+                 [学号],[密码] 
+                 FROM [student] 
+                 WHERE [学号]='{}'""".format(name)
     rs.Open(sql, conn, 1, 1)
     if rs.RecordCount:
         while not rs.EOF:

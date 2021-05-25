@@ -15,8 +15,14 @@ def Button1():
     if ISBN == "" or title == "":
         tkinter.messagebox.showerror("错误！", "ISBN和书名都需要进行填写！")
     else:
-        sql = "INSERT INTO {} (ISBN,书名,作者,类型,出版时间,数量) VALUES ('{}','{}','{}','{}','{}',{})".format(
-            tablename, ISBN, title, author, type, pub, count)
+        sql = """INSERT INTO {} (ISBN,书名,作者,类型,出版时间,数量) 
+                     VALUES ('{}','{}','{}','{}','{}',{})""".format(tablename,
+                                                                    ISBN,
+                                                                    title,
+                                                                    author,
+                                                                    type,
+                                                                    pub,
+                                                                    count)
         conn.Execute(sql)  # 执行sql语句
         varl1.set("")
         varl2.set("")

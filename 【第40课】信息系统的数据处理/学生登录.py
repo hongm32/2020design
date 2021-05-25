@@ -15,7 +15,10 @@ if not student_number:
     print("学号输入无效！")
     exit()
 # 查询语句
-sql = "SELECT 学号,密码 FROM student WHERE 学号='{}'".format(student_number)
+sql = """SELECT 
+             [学号],[密码] 
+             FROM [student] 
+             WHERE [学号]='{}'""".format(student_number)
 rs.Open(sql, conn, 1, 1)
 
 is_login = 0

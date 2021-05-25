@@ -25,17 +25,19 @@ conn.Open(DSN)  # 用游标打开数据连接
 
 for data in books_data:
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
-    sql = """SELECT ISBN FROM books
-             WHERE ISBN='{}'""".format(data[0])
+    sql = """SELECT 
+                 [ISBN] 
+                 FROM [books]
+                 WHERE [ISBN]='{}'""".format(data[0])
     rs.Open(sql, conn, 1, 1)
 
     if rs.EOF:
-        sql = """INSERT INTO books (ISBN,书名,作者,类型,出版日期,数量)
-                 VALUES {}""".format(data)
+        sql = """INSERT INTO [books] ([ISBN],[书名],[作者],[类型],[出版日期],[数量])
+                     VALUES {}""".format(data)
     else:
-        sql = """UPDATE books
-                 SET 数量=数量+{}
-                 WHERE ISBN='{}'""".format(data[-1], data[0])   # 更新
+        sql = """UPDATE [books]
+                     SET [数量]=[数量]+{}
+                     WHERE [ISBN]='{}'""".format(data[-1], data[0])   # 更新
 
     conn.Execute(sql)  # 执行sql语句
 

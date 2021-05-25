@@ -14,7 +14,7 @@ except:
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 sql = 'books'
-# sql = "SELECT * FROM books"
+# sql = """SELECT * FROM [books]"""
 rs.Open(sql, conn, 1, 1)
 # Open(Source,ActiveConnection,CursorType,LockType,Options)说明：
 # Source:数据表
