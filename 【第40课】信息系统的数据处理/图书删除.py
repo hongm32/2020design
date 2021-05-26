@@ -6,7 +6,7 @@ DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  #
 conn.Open(DSN)  # 用游标打开数据连接
 
 sql = """DELETE 
-             FROM [books]"""
+             FROM [book]"""
 """DELETE命令格式：
       DELETE 
           FROM 表名 

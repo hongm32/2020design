@@ -1,7 +1,7 @@
 import win32com.client
 
 
-mdb_file = "../【第37课】数据库的构建/图书借阅管理.mdb"  # 数据库文件
+mdb_file = "Database.accdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接
@@ -9,15 +9,14 @@ conn.Open(DSN)  # 用游标打开数据连接
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
 # 查询语句
-# sql = "SELECT TOP 4 ISBN,COUNT(*) AS [借阅数量] FROM [borrow] GROUP BY ISBN ORDER BY [借阅数量] DESC"
-sql = """SELECT 
-             TOP 4 
+sql = """SELECT
+             TOP 8
              [ISBN],
-                 COUNT(*) AS [借阅数量] 
-             FROM [borrow] 
-             GROUP BY [ISBN] 
+                 COUNT(*) AS [借阅数量]
+             FROM [borrow]
+             GROUP BY [ISBN]
              ORDER BY COUNT(*) DESC"""  # 聚合字段别名不能用于排序
-rs.Open(sql, conn, 1, 3)
+rs.Open(sql, conn, 1, 1)
 
 print('查询到{}条记录：\n'.format(rs.RecordCount))
 # 遍历记录，读取数据

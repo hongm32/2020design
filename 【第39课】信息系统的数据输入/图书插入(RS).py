@@ -6,7 +6,7 @@ DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  #
 conn.Open(DSN)  # 用游标打开数据连接
 
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
-table = 'books'
+table = 'book'
 sql = """SELECT * FROM {}""".format(table)
 rs.Open(sql, conn, 1, 3)
 
@@ -18,7 +18,7 @@ rs("ISBN").Value = '978-7-5499-8387-2'
 rs("书名").Value = "教育写作"
 rs("作者").Value = '颜莹'
 rs("类型").Value = '教育'
-rs("出版时间").Value = '202-3-1'
+rs("出版日期").Value = '202-3-1'
 rs("数量").Value = 9
 
 rs.Update()  # 更新数据表记录

@@ -8,7 +8,7 @@ conn.Open(DSN)  # 用游标打开数据连接
 
 # 打开一个记录集Recordset
 rs = win32com.client.Dispatch(r'ADODB.Recordset')
-sql = """SELECT * FROM [books]"""
+sql = """SELECT * FROM [book]"""
 rs.Open(sql, conn, 1, 3)
 
 # 光标移到首条记录

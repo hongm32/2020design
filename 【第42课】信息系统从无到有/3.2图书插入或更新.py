@@ -18,7 +18,7 @@ books_data = [
     ('978-7-2080-6164-4', '追风筝的人', '卡勒德·胡赛尼', '小说', '2006-05-01', 6)
     ]
 
-mdb_file = "../【第37课】数据库的构建/图书借阅管理.mdb"  # 数据库文件
+mdb_file = "Database.accdb"  # 数据库文件
 conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接

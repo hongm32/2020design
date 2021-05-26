@@ -15,7 +15,7 @@ def Button1():
     if ISBN == "" or title == "":
         tkinter.messagebox.showerror("错误！", "ISBN和书名都需要进行填写！")
     else:
-        sql = """INSERT INTO {} (ISBN,书名,作者,类型,出版时间,数量) 
+        sql = """INSERT INTO {} (ISBN,书名,作者,类型,出版日期,数量) 
                      VALUES ('{}','{}','{}','{}','{}',{})""".format(tablename,
                                                                     ISBN,
                                                                     title,
@@ -37,7 +37,7 @@ conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
 DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
 conn.Open(DSN)  # 用游标打开数据连接
 
-tablename = 'books'
+tablename = 'book'
 
 win = tk.Tk()
 win.title("图书录入")
@@ -56,7 +56,7 @@ tk.Label(win, text="ISBN", width=14).grid(row=1, column=0)
 tk.Label(win, text="书名", width=14).grid(row=2, column=0)
 tk.Label(win, text="作者", width=14).grid(row=3, column=0)
 tk.Label(win, text="类型", width=14).grid(row=4, column=0)
-tk.Label(win, text="出版时间", width=14).grid(row=5, column=0)
+tk.Label(win, text="出版日期", width=14).grid(row=5, column=0)
 tk.Label(win, text="数量", width=14).grid(row=6, column=0)
 
 tk.Entry(win, textvariable=varl1, width=30).grid(row=1, column=1)

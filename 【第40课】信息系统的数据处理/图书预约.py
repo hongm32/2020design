@@ -56,7 +56,7 @@ def modify():
     """预约图书并更新可借阅图书数量"""
     try:
         # 更新图书数量
-        sql_update = """UPDATE [books] 
+        sql_update = """UPDATE [book] 
                             SET [数量]=[数量]-1 
                             WHERE [ISBN]='{}'""".format(select_isbn)
         conn.Execute(sql_update)  # 执行sql语句

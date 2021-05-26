@@ -14,7 +14,7 @@ def CmdChk():
     conn.Open(DSN)
     CrRecFstVolVal = []
     if v.get() == 1:
-        TblName = 'books'
+        TblName = 'book'
     elif v.get() == 2:
         TblName = 'borrow'
     elif v.get() == 3:

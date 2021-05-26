@@ -12,11 +12,11 @@ rs = win32com.client.Dispatch(r'ADODB.Recordset')
 
 sql = """SELECT
              TOP 8
-             ISBN,
-                 (SELECT 书名 FROM book WHERE ISBN=borrow.ISBN) AS 书名,
-                 COUNT(*) AS 借阅数量
-             FROM borrow
-             GROUP BY ISBN
+             [ISBN],
+                 (SELECT [书名] FROM [book] WHERE [ISBN]=[borrow].[ISBN]) AS [书名],
+                 COUNT(*) AS [借阅数量]
+             FROM [borrow]
+             GROUP BY [ISBN]
              ORDER BY COUNT(*) DESC
          """  # 聚合字段别名不能用于排序
 rs.Open(sql, conn, 1, 1)
