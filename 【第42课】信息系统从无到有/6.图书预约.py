@@ -4,31 +4,34 @@ import time
 
 def login():
     """学生登录"""
-    student_number = input("输入学号：")
-    if not student_number:
-        print("学号输入无效！")
-        exit()
-    # 查询语句
-    rs = win32com.client.Dispatch(r'ADODB.Recordset')
-    sql = """SELECT
-                 学号,密码
-                 FROM student
-                 WHERE 学号='{}'""".format(student_number)
-    rs.Open(sql, conn, 1, 1)
+    while True:
+        student_number = input("输入学号：")
+        if not student_number:
+            print("学号输入无效！")
+            continue
+        # 查询语句
+        rs = win32com.client.Dispatch(r'ADODB.Recordset')
+        sql = """SELECT
+                     学号,密码
+                     FROM student
+                     WHERE 学号='{}'""".format(student_number)
+        rs.Open(sql, conn, 1, 1)
+        if rs.EOF:
+            print("该学号不存在！")
+        else:
+            data = rs.GetRows()
+            break
 
-    if rs.RecordCount:
+    step = 4
+    while step > 0:
         student_password = input("输入密码：")
         # 判断查询结果中的密码和输入的密码是否一致
-        while not rs.EOF:
-            if student_password == rs.Fields(1).Value:
+        for index, passwd in enumerate(data[1]):
+            if student_password == passwd:
                 return student_number  # 登陆成功，返回学号
-            rs.MoveNext()
-        else:
-            print("密码错误！")
-            return False
-    else:
-        print("查无此人！")
-        return False
+        step -= 1
+        print("密码错误！还可再试{}次".format(step))
+    return False
 
 
 def show():
@@ -36,11 +39,14 @@ def show():
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
     sql = """SELECT
                  ISBN,书名
-                 FROM book
+                 FROM [book]
                  WHERE 数量>0"""
-    book_name = input("输入你要预约的图书书名：")
+    book_name = input("输入你想要预约的图书书名：")
     if book_name:
         sql += """ AND 书名 LIKE '%{}%'""".format(book_name)
+    book_auth = input("输入你想要预约的图书作者：")
+    if book_auth:
+        sql += """ AND 作者 LIKE '%{}%'""".format(book_auth)
     rs.Open(sql, conn, 1, 1)
 
     if rs.RecordCount:
@@ -48,12 +54,12 @@ def show():
         records = rs.GetRows()
         for idx, name in enumerate(records[1]):
             print("  {}:{}".format(idx, name))
-    print("  e: 退出")
-    select = input("选择你要预约的书名编号：")
-    if select.isdigit() and int(select) <= len(records[0]):
-        return records[0][int(select)]
-    elif select.lower() == "q":
-        exit()
+        print("  e: 退出")
+        select = input("选择你要预约的书名编号：")
+        if select.isdigit() and int(select) <= len(records[0]):
+            return records[0][int(select)]
+        elif select.lower() == "q":
+            exit()
     return False
 
 
@@ -109,17 +115,21 @@ if __name__ == "__main__":
 
     student_number = login()
     if student_number:
-        show_borrow()
-        select_isbn = show()
-        if select_isbn:
-            if not_borrow():
-                if modify():
-                    print("  预约成功！")
+        while True:
+            show_borrow()
+            select_isbn = show()
+            if select_isbn:
+                if not_borrow():
+                    if modify():
+                        print("  预约成功！")
+                    else:
+                        print("  预约失败！")
                 else:
-                    print("  预约失败！")
+                    print("你已借了本书，不要重复！")
             else:
-                print("你已借了本书，不要重复！")
-        else:
-            print("查无此书，无法预约！")
+                print("查无此书，无法预约！")
+            flag = input("是否继续(Y/N)：")
+            if flag.lower() != "y":
+                break
 
     conn.Close()
