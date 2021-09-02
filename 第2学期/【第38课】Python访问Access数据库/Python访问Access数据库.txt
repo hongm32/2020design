@@ -1,0 +1,89 @@
+Python访问数据库ACCESS
+
+
+模块一：pywin32
+1、加载模块
+import win32com.client
+
+
+2、连接数据库
+mdb_file = "图书借阅管理.mdb"  # 数据库文件
+conn = win32com.client.Dispatch(r"ADODB.Connection")  # 建立连接对象
+DSN = 'PROVIDER = Microsoft.ACE.OLEDB.12.0;DATA SOURCE = {}'.format(mdb_file)  # Access2007及以后
+conn.Open(DSN)  # 用游标打开数据连接
+
+
+3、查询：
+# 打开一个记录集Recordset
+rs = win32com.client.Dispatch(r'ADODB.Recordset')
+sql = 'books'
+# sql = "SELECT * FROM books"
+rs.Open(sql, conn, 1, 1)
+附：完整查询语句SELECT
+    SELECT
+        TOP n PERCENT 
+        字段列表
+        FROM [表名]
+        WHERE 条件
+        ORDER BY 字段 DESC
+
+
+# 遍历记录方法一：
+while not rs.EOF:
+    for i in range(rs.Fields.Count):
+        print('{}: {}'.format(rs.Fields[i].Name, rs.Fields[i].Value))    # 字段名：字段内容
+    print(end='\n')
+    rs.MoveNext()  # 光标移到下条记录
+
+# 遍历记录方法二：
+data = rs.GetRows()   # 返回元组，每个元素也是一个元组，对应字段值
+print(data)
+
+
+4、修改、更新、删除：
+# 执行SQL语句
+sql = "SQL语句"
+conn.Execute(sql)
+SQL语句：
+INSERT INTO [表] (字段列表)
+        VALUES (值列表)
+UPDATE [表]
+        SET 字段=要修改的值
+        WHERE 条件
+DELETE
+        FROM [表]
+        WHERE  条件
+
+
+5、关闭连接对象
+conn.Close()
+
+
+
+
+模块二：pyodbc
+1、导入模块
+import pyodbc
+
+2、连接数据库文件
+mdb_file = "图书借阅管理.mdb"  # 数据库文件
+conn = pyodbc.connect("Driver={Microsoft Access Driver ( *.mdb, *.accdb)}; DBQ={}".format(mdb_file))
+
+3、创建游标
+cursor = conn.cursor()
+
+4、执行SQL语句
+sql = "SQL语句"
+cursor.execute(sql)
+
+5、读写数据
+写数据：
+cursor.commit()
+或取出查询数据：
+list = cursor.fetchall()
+
+6、关闭游标
+cursor.close()
+
+7、关闭数据库连接
+conn.close()

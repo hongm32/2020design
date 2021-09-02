@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2579751  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-101</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列密码中，安全级别最高的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">生日<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">字母、符号、数字混用，多用特殊字符<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">英语单词<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">电话号码<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579753  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-102</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">流氓软件与一般计算机病毒的主要区别是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">不破坏计算机文件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">可以自我复制传播<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">可以使计算机运行变得缓慢<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">主要传播途径为网络<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579755  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-103</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">通常所说的<span lang="EN-US">“</span>计算机病毒<span lang="EN-US">”</span>是指(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">细菌感染<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">生物病毒感染<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">被损坏的程序<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">特制的具有破坏性的程序<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579757  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-104</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">“</span>黑客<span lang="EN-US">”</span>是指(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">匿名上网的人<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">总在晚上上网的人<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在网上私闯他人计算机系统的人<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">不花钱上网的人<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579759  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-105</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列措施不能防止计算机病毒的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">保持计算机清洁<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">先用计算机杀毒软件对从他人计算机上复制来的文件进行病毒扫描<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">不用来历不明的移动存储设备<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">安装计算机杀毒软件并及时更新升级<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579761  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-106</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">计算机杀毒软件的作用是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">检查计算机是否感染病毒，清除已感染的所有病毒<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">杜绝计算机感染病毒<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">检查出计算机感染的任何病毒，清除其中的一部分<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">检查计算机是否感染病毒，尽可能清除已感染的病毒<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579763  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-201</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">计算机病毒是在计算机程序中插入的破坏计算机功能或者数据的(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一个程序<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一段可执行代码<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一种生物病毒<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一个文本文件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579765  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-202</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于计算机病毒特征的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">传播性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">可触发性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">潜伏性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">可预见性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579767  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-203</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">要保证自己的计算机不感染病毒，下列做法合理的有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">及时备份数据，升级操作系统补丁<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">安装杀毒软件和防火墙并及时更新<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">不访问陌生网站，不使用来历不明的软件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">打开移动存储设备前先进行病毒检查<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579769  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.2-204</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">要保证个人信息系统的安全，应注意的问题有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">账号的安全设置<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">密码保护安全设置<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">账户安全认证登录<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">个人数据的安全维护，及时备份<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

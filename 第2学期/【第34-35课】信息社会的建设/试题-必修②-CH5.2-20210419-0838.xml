@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2579901  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-101</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列哪种消息暴露了个人隐私？<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">小明喜欢购买电子产品<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">小明一家都喜欢旅游<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">小明家住在绿城花园25栋102室<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">小明家的邮编是312098<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579903  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-102</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列不属于政府应当公开的信息的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">行政法规、规章和规范性文件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">国民经济和社会发展统计信息<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">国有企业的商业秘密<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">突发公共事件的应急预案、预警信息及应对情况<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579905  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-103</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">关于计算机中使用的软件，下列说法错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">软件凝结着程序员的劳动成果<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">软件像书籍一样，借来复制一下不会损害他人<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">未经软件著作权人同意复制其软件是侵权行为<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">软件如同硬件一样，也是一种商品<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579907  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-104</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">文学、艺术、科学技术作品的原创作者，依法对其作品享有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">消费权<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">商标权<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">专利权<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">著作权<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579909  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-105</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">软件盗版是指未经授权对软件进行复制、仿制、使用或生产。下列不属于软件盗版的主<span lang="EN-US"></span>要形式的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">最终用户盗版<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">盗版软件光盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Internet在线软件盗版<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">使用试用版软件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579911  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-106</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网站不声明隐私政策是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">合法行为<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">违法行为<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">犯罪行为<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">正当行为<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579913  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-201</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">保护计算机知识产权的目的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">鼓励软件开发和交流<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">促进计算机应用的健康发展<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">引起人们和社会的重视<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">保护知识产权所有者权益<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579915  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-202</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于政府应当公开的信息是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">环境保护、公共卫生、安全生产、食品药品、产品质量的监督检查情况<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">财政预算、决算报告<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">国民经济和社会发展规划、专项规划、区域规划及相关政策<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">扶贫、教育、医疗、社会保障、促进就业等方面的政策、措施及其实施情况<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579917  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-203</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于软件盗版行为的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">复制不属于许可协议允许范围之内的软件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">对软件或文档进行租赁、二级授权或出借<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在没有许可证的情况下从服务器上下载软件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">复制软件安装光盘并出售<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579919  -->
+  <question type="multichoice">
+    <name>
+      <text>CH5.2-204</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于侵犯个人隐私权行为的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在网络通信过程中，个人隐私信息被雇主、服务商或黑客窃取<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">未经许可使用他人计算机，篡改其私人信息，冒用其名义发出信息<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">个人信用及财产状况被服务商泄露<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">复制他人在网盘上共享的文件资源<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

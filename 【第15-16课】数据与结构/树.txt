@@ -1,5 +1,0 @@
-A
-A.B,A.C,A.D
-B.E,B.F,B.G
-D.H,D.I,D.J
-G.K,G.L,G.M

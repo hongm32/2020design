@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2579485  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-101</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">将计算机网络划分为广域网、城域网和局域网的依据是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网络接人的计算机数量<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网络接人的计算机类型<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网络的拓扑结构<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网络覆盖的范围<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579487  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-102</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">IPv4和IPv6地址长度分别是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">16位和32位<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">32位和48位<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">32位和128位<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">48位和128位<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579489  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-103</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在互联网中，用于将主机名解析成IP地址的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DNS<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">HTTP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ARP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">FTP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579491  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-104</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于Wi-Fi与WLAN的说法错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Wi-Fi是WLAN的一个标准<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Wi-Fi的覆盖范围比WLAN的覆盖范围大<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">WLAN表示无线局域网<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">Wi-Fi属于采用WLAN技术中的一项技术<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579493  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-105</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列不属于网络协议组成要素的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">语法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">语义<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">同步<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">进程<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579495  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-106</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列IP地址中属于B类地址的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">61.177.37.1</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">191.248.1.253</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">192.168.109.1</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">229.1.189.1</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579497  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-107</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于域名的叙述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">—个域名只能对应一个IP地址<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">—个IP地址可以对应多个域名<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">域名采用层次化的命名方式<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">域名www.nju.edu中的“edu”表示教育机构<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579499  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-108</text>
+    </name>
+    <questiontext format="html">
+      <text>IPv4地址可分为A、B、C、D、E五类，一个C类网络可分配的主机IP地址的数量是(　　)。</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">254<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">255<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">256<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">512<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579501  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-109</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">将互联网上的主机IP地址解析为该主机的MAC地址的协议是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">DNS<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ARP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">RARP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">HTTP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579503  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-110</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于TCP/IP协议的叙述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">要想使接人互联网的设备能够进行通信，就要借助TCP/IP协议<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">TCP/IP协议广泛用于广域网互联，但不可用于局域网通信<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">UNIX和Windows等操作系统已将遵循TCP/IP协议的通信软件作为其内核的一个组成部分<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">TCP/IP协议是一个协议簇，它包含数百个协议，TCP、IP协议是其中两个最基本、最重要的协议<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579505  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-111</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于IP地址的叙述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">IP地址是主机的逻辑地址，每台主机还有各自的物理地址<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">对于家庭用户，ISP通常是动态分配IP地址<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">一台主机只能有一个IP地址<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">—个IP地址可以对应多个域名<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579507  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-112</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在下列一组不同进制的数中，最大的一个数是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">(10101000</span><span lang="EN-US">)B</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">(</span><span lang="EN-US">A</span><span lang="EN-US">9</span><span lang="EN-US">)H</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">(77)0</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">(75</span><span lang="EN-US">)D</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579509  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-113</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">二进制数10110110和11011100进行逻辑“与”运算的结果为(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">10011100<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">10010100<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">10010010<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">11111110<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579511  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-114</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于比特的叙述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">比特是组成数字信息的最小单位<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">比特既没有颜色也没有重量<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">比特只有“0”和“1”两个符号<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">比特“1”大于比特“0”<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579513  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-115</text>
+    </name>
+    <questiontext format="html">
+      <text>把网络202.112.78.0划分为多个子网（子网掩码是255.255.255.192)，则每个子网中可用的主机地址数是(　　)。</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">254<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">128<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">124<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">62<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579515  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-201</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于计算机网络性能指标的有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">速率<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">带宽<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">时延<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">吞吐量<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579517  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-202</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在计算机网络中，可以共享的资源有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">键盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">打印机<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">处理器<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">硬盘<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579519  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-203</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列地址中是不符合标准的IPv4地址，或是内部专用地址的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">256.160.170.11</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">202.119.224.10</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">202.195.14.266</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">172.16.2.1</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579521  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-204</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于子网掩码的叙述正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">子网掩码是一个32位地址，其作用与IP地址相似<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">用于屏蔽IP地址的一部分以区别网络标识和主机标识<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">用于将一个大的IP网络划分为若干个小的子网络<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text>将IP地址和子网掩码进行二进制“与”运算，能够判断两台主机是否属于同一网段</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579523  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-205</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">默认子网掩码下，下列可用于主机的IP地址的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">12.255.255.0</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">131.0.0.255</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">202.195.14.255</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><span lang="EN-US">192.0.0.201</span><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579525  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-206</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于远程文件传输的叙述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">用户可以从FTP服务器批量下载文件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">使用FTP每次只可以传输一个文件<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="50" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">使用IE浏览器无法启动FTP服务<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">匿名用户通常不允许在FTP服务器上创建新文件夹<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579527  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-207</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列选项属于TCP/IP协议簇的网络协议是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ASP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">FTP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">UDP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">TCP<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579529  -->
+  <question type="multichoice">
+    <name>
+      <text>CH2.2-208</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列选项属于计算机网络在信息系统中作用的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统内信息传输<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统间信息传输<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统内功能控制<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统间资源共享<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

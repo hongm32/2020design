@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 2579771  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-101</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在实现信息安全的目标中，关于信息安全技术和管理之间的关系，下列哪种说法不正<span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>确？<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">产品和技术，要通过管理的组织职能才能发挥最好的作用<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">技术不高但管理良好的系统远比技术高但管理混乱的系统安全<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">信息安全技术可以解决所有信息安全问题，管理无关紧要<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">实现信息安全是一个管理的过程，而并非仅仅是一个技术的过程<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579773  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-102</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">信息安全管理领域权威的标准是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">GB/T23331-2009<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ISO/IEC 27002<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ISO 9001<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">ISO 14001<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579775  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-103</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">我国颁布《中华人民共和国网络安全法》的时间是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2016年11月7日<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2016年11月1日<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2019年11月7日<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2016年1月7日<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579777  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-104</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">就信息系统安全管理的阶段而言，下列属于事先防御阶段措施的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">漏洞修复<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">病毒监测<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">事故取证<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">加密传输<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579779  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-105</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">就信息系统安全管理的阶段而言，下列属于实时监测阶段措施的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">漏洞修复<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网络隔离<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">入侵检测<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">访问控制<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579781  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-106</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">事实上，大多数信息系统安全事件发生的原因主要有两个：技术与(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">管理<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">人员<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">资金<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">设备<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579783  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-201</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">人为因素造成的信息系统安全事件发生的主要原因有(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统工作人员数量太少<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">信息设备使用人员认识不足<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">作人员操作不当<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">不法分子恶意攻击<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579785  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-202</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列属于ISO/IEC 27002标准中信息安全管理的主要内容的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">访问控制<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">物理和环境安全<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">人力资源安全<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="25" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">组织信息安全<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579787  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-203</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">为了降低信息系统内部工作人员带来的系统安全风险，加强内部人员的安全管理，主要<span lang="EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>应该做好(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">工作申请者的背景检查<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在职人员雇佣合同和保密协议的签订，加强安全管理<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在职人员的定期体检<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">离职人员访问权限的撤销<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2579789  -->
+  <question type="multichoice">
+    <name>
+      <text>CH4.3-204</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">依据信息系统安全管理的阶段，信息系统安全管理可划分为(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">事先防御阶段<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="-100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">系统试运行阶段<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">实时监测阶段<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="33.33333" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">事后响应阶段<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
