@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/默认 【学考】信息</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>场景“【学考】信息”中共享试题的默认类别。</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/默认 【学考】信息/百日冲刺</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/默认 【学考】信息/百日冲刺/必修1 数据与计算</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/默认 【学考】信息/百日冲刺/必修1 数据与计算/主题1 数据与信息</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 2580805  -->
+  <question type="multichoice">
+    <name>
+      <text>P002-00</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于数据的描述，错误的一项是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">数据可以是图像和声音<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">同一数据源不同时刻获取的数据是固定不变的<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">数据是信息的符号表示<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">单纯的数据没有意义<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580807  -->
+  <question type="multichoice">
+    <name>
+      <text>P003-01</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列选项表示数据的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">字典厚3厘米<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1000<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">周末最低气温-5℃<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">低于0℃水会结冰<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580809  -->
+  <question type="multichoice">
+    <name>
+      <text>P003-02</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">中央气象台2019年10月12日凌晨发布第19是以台风“海贝思”警报，并要求福建沿海数万在一线户外作业及居住在危棚简屋的人员立即撤离转移，从而避免了大量的人员和财物的损失。从信息的角度来说，以上消息最能体现出信息的(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">时效性、价值性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">可存储性、可转换性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">载体依附性、真伪性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">增值性、共享性<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580811  -->
+  <question type="multichoice">
+    <name>
+      <text>P004-00</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于知识的表述正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">知识是数据和信息的总和<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">知识是人类求知活动的结晶<br></p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p dir="ltr" style="text-align: left;">知识不等同于数据和信息，知识是信息经过加工提炼后的抽象产物，是人类发展过程中不断总结的经验的结晶。网上检索到的资料非常繁杂，不是所有的资料都能称为知识。<br></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">网上检索到的资料就是知识<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">知识是信息的符号表示<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580813  -->
+  <question type="multichoice">
+    <name>
+      <text>P004-01</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于数据、信息与知识三描述错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">所有的数据和知识都是信息<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">数据是对事物属性的客观记录<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">知识是经人的思维整理过的信息和数据，是人类求知活动的结晶<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">信息是经过组织的有结构的数据<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580815  -->
+  <question type="multichoice">
+    <name>
+      <text>P005-00</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">某中学想要获取高一学生对选科偏好的第一手数据，最便捷高效的数据采集方法是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">访谈法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">问卷调查法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">教学观察法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">经验分析法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580817  -->
+  <question type="multichoice">
+    <name>
+      <text>P005-01</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">利用网络可以方便地将调查问卷的结果导出，以方便数据的处理。这一过程称为数据的(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">采集<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">加工<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">检索<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">传输<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580819  -->
+  <question type="multichoice">
+    <name>
+      <text>P005-02</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列渠道获取的数据属于间接数据的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">读书看报<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">科学探索<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">实验总结<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">生产劳动<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580821  -->
+  <question type="multichoice">
+    <name>
+      <text>P006-00</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列关于在WPS表格中进行筛选操作的说法，错误的一项是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">筛选就是把符合指定条件的数据保留，不符合条件的数据删除<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">取消筛选后，筛选框下拉按钮就会自动消失<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">排序和筛选是进行数据统计分析时最常用的两各方式<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">筛选是一种重要的数据分析方法，它不会破坏原始数据<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580823  -->
+  <question type="multichoice">
+    <name>
+      <text>P006-01</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">下列对计算的理解错误的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">凡是需要计算的，用计算机来解决是最快捷的<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">从类从诞生之初就学会了简单的计算方法<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">用计算机绘制“函数图像”比人工绘制要精确<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">计算是一种获得信息的过程<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580825  -->
+  <question type="multichoice">
+    <name>
+      <text>P006-02</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在WPS表格中，要计算C5到E5之间所有单元格中数据的平均值，下列选项中对函数的使用正确的是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">AVERAGE(C5:E5)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=AVERAGE(C5:E5)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">SUM(C5+E5)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=SUM(C5+E5)/3<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580827  -->
+  <question type="multichoice">
+    <name>
+      <text>P006-03</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">某单位职工宿舍电费清单如下图所示，<br><img src="@@PLUGINFILE@@/P006-3.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" width="387" height="201"><br>其中“应缴电费=(本月表数-上月表数)×单价“，为了运用填充句柄进行所有数据的快速计算，应先在E2单元格中输入(　　)。<br></p>]]></text>
+<file name="P006-3.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=(8010762)*0.52<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=(C2-B2)*D2<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=SUM((C2-B2)*D1)<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">=(B2-C2)*D2<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580829  -->
+  <question type="multichoice">
+    <name>
+      <text>P007-04</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[在“成绩表”的B列至E列分别存放的是考生的语文、数学、英语和物理成绩，在F3单元格中输入“=COUNT(B2:E3)”，返回的结果是下面的(　　)。<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">返回非空数字单元格的个数<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">返回非零单元格个数<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">返回单元格区域中的最大值<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">返回数字8<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580833  -->
+  <question type="multichoice">
+    <name>
+      <text>P007-05</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在WPS表格中有一列数据“D20、D220、D200、D22”，该列数据在默认情况下进行升序排序，排序结果是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">D220、D22、D200、D20<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">D20、D200、D22、D220<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">D20、D220、D200、D22<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">D20、D22、D200、D220<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 2580831  -->
+  <question type="multichoice">
+    <name>
+      <text>P007-06</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">期末考试后，学校评选三好学生和优秀学生干部，要求和班上报符合条件的学生候选名单。班主任请你根据条件大学校数据库中找出本班相关学生，比较好的做法是(　　)。<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>您的答案是正确的。</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>您的答案部分正确。</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>您的答案不正确</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在学校数据库中逐条检查记录，逐条比对条件，最后列出同学名单<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在学校数据库中先筛选出本班数据，再根据要求筛选出相关同学<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在学校数据库中筛选出符合该条件的同学<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">在学校数据为患 先筛选出本班数据，再逐条比对条件，找出相关同学<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
